@@ -89,6 +89,9 @@ class VNDemoWalletViewController: UIViewController, UITableViewDelegate, UITable
 		case ORDER_HISTORY:
 			navigationController?.pushOrderHistory()
 		case RECEIPT:
+			/*
+			 TODO: Update the order UUID to test with a real receipt for configuration.
+			 */
 			navigationController?.pushOrderReceipt(receipt: "<ORDER_UUID>")
 		default:
 			let unsupportedMessage = UIAlertController(

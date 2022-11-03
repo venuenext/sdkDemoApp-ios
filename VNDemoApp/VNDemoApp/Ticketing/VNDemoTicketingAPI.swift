@@ -14,7 +14,6 @@ import Foundation
  *** DISCLOSURE ***
  Using this fake demo api will create this user in your org.
  */
-
 fileprivate let KEY_DEMO_LOGGED_IN_USER = "demoLoggedInUserKey"
 
 class VNDemoTicketingAPI {

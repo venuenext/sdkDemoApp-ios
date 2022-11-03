@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		321DF2CC2912E88D002539AE /* arena_dev_pkcs8_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 321DF2CB2912E88D002539AE /* arena_dev_pkcs8_private_key.pem */; };
 		321DF2CE2912F0DB002539AE /* VNWebSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321DF2CD2912F0DB002539AE /* VNWebSDK.xcframework */; };
 		321DF2CF2912F0DB002539AE /* VNWebSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 321DF2CD2912F0DB002539AE /* VNWebSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		322D5E702911763C00FB3F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D5E6F2911763C00FB3F5F /* AppDelegate.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		321DF2CB2912E88D002539AE /* arena_dev_pkcs8_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arena_dev_pkcs8_private_key.pem; sourceTree = "<group>"; };
 		321DF2CD2912F0DB002539AE /* VNWebSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VNWebSDK.xcframework; path = ../VNWebSDK.xcframework; sourceTree = "<group>"; };
 		322D5E6C2911763C00FB3F5F /* VNDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		322D5E6F2911763C00FB3F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 		322D5E6E2911763C00FB3F5F /* VNDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				321DF2CB2912E88D002539AE /* arena_dev_pkcs8_private_key.pem */,
 				322D5E952912D41C00FB3F5F /* Ticketing */,
 				322D5E8D2911BA1400FB3F5F /* Ordering */,
 				322D5E8C2911BA0B00FB3F5F /* Wallet */,
@@ -202,7 +199,6 @@
 			files = (
 				322D5E7C2911765900FB3F5F /* LaunchScreen.storyboard in Resources */,
 				322D5E792911765900FB3F5F /* Assets.xcassets in Resources */,
-				321DF2CC2912E88D002539AE /* arena_dev_pkcs8_private_key.pem in Resources */,
 				322D5E772911763C00FB3F5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -46,6 +46,9 @@ class VNDemoTicketingViewController: UIViewController, UITableViewDelegate, UITa
 		return cell
 	}
 	
+	/*
+	 TODO: This is a contrived login/logout flow. You can use this to test with a fake user, or you can replace with your own ticketing integration to test with real users.
+	 */
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		let method = demoMethods[indexPath.row]
 		switch(method) {

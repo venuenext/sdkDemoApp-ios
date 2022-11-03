@@ -7,6 +7,9 @@
 
 import Foundation
 
+/*
+ TODO: This is a contrived example of a ticketing user for demo purposes only.
+ */
 class VNDemoTicketingUser: Codable {
 	let userID: String
 	let firstName: String

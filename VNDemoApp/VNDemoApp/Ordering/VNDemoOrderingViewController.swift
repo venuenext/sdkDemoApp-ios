@@ -112,6 +112,9 @@ class VNDemoOrderingViewController: UIViewController, UITableViewDelegate, UITab
 		return cell
 	}
 	
+	/*
+	 TODO: Update the UUID and name strings in these VN calls with real values to properly test these flows.
+	 */
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		let method = demoSections[indexPath.section].section[indexPath.row]
 		switch(method) {
