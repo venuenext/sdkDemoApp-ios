@@ -85,15 +85,15 @@
 		322D5E6E2911763C00FB3F5F /* VNDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				322D5E6F2911763C00FB3F5F /* AppDelegate.swift */,
+				322D5E932912BE4400FB3F5F /* VNDemoCustomTheme.swift */,
 				322D5E952912D41C00FB3F5F /* Ticketing */,
 				322D5E8D2911BA1400FB3F5F /* Ordering */,
 				322D5E8C2911BA0B00FB3F5F /* Wallet */,
-				322D5E6F2911763C00FB3F5F /* AppDelegate.swift */,
 				322D5E752911763C00FB3F5F /* Main.storyboard */,
 				322D5E782911765900FB3F5F /* Assets.xcassets */,
 				322D5E7A2911765900FB3F5F /* LaunchScreen.storyboard */,
 				322D5E7D2911765900FB3F5F /* Info.plist */,
-				322D5E932912BE4400FB3F5F /* VNDemoCustomTheme.swift */,
 			);
 			path = VNDemoApp;
 			sourceTree = "<group>";
