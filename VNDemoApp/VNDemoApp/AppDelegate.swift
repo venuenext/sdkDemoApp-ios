@@ -18,13 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		 TODO: Before the VN SDK can be used, it must be initialized.
 		 The `org`, `instance`, and env must be correct. You should receive these values from the VenueNext team. `env` is optional. Omit `env` to point to your production environment, or include it to point to other environments, like "qa" or "dev" (the environment must be created by VN, however).
 		 */
-		VenueNextWeb.shared.initialize("<YOUR_VN_ORG>", instance: "<YOU_VN_INSTANCE>")
+		VenueNextWeb.shared.initialize("arena", instance: "arena")
 		
 		/*
 		 TODO: A .pem file is needed for authenticating user.
 		 If you are planning on allowing users to log in with external accounts, the .pem file must be set. The .pem file should be received from the VenueNext team. You will need to import your .pem file to Xcode.
 		 */
-		if let filePath = Bundle.main.path(forResource: "<YOUR_PEM_FILE_NAME>", ofType: "pem") {
+		if let filePath = Bundle.main.path(forResource: "arena_dev_pkcs8_private_key", ofType: "pem") {
 			let fileURL = URL(fileURLWithPath: filePath)
 			VenueNextWeb.shared.privateKeyPath = fileURL
 		}
