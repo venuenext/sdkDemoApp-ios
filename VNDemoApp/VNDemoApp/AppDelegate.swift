@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		 TODO: Before the VN SDK can be used, it must be initialized.
 		 The `org`, `instance`, and env must be correct. You should receive these values from the VenueNext team. `env` is optional. Omit `env` to point to your production environment, or include it to point to other environments, like "qa" or "dev" (the environment must be created by VN, however).
 		 */
-		VenueNextWeb.shared.initialize("arena", instance: "arena")
+		VenueNextWeb.shared.initialize("arena", instance: "arena", env: "dev")
 		
 		/*
 		 TODO: A .pem file is needed for authenticating user.
