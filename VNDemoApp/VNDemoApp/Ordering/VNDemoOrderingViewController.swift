@@ -7,6 +7,7 @@
 
 import UIKit
 import VNWebSDK
+import OSLog
 
 fileprivate let BASIC_FB = "Presenting Basic Food And Beverage"
 fileprivate let FILTERING_SERVICE_TYPE = "Filtering Food And Beverage Service Types"
@@ -80,10 +81,26 @@ class VNDemoOrderingViewController: UIViewController, UITableViewDelegate, UITab
 		(section: demoAdvancedOptionsMethods, title: ADVANCED_OPTIONS)
 	]
 	
+	lazy var demoAnalyticsHandler = VNDemoAnalyticsHandler { message in
+		os_log("Analytics Message: \(message)")
+		let alert = UIAlertController(
+			title: "VN Analytics Event",
+			message: message,
+			preferredStyle: .alert
+		)
+		 self.present(alert, animated: true, completion: nil)
+		 Timer.scheduledTimer(
+			withTimeInterval: 5.0,
+			repeats: false,
+			block: { _ in alert.dismiss(animated: true, completion: nil)}
+		)
+	}
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		demoOrderingMethodsTableview.delegate = self
 		demoOrderingMethodsTableview.dataSource = self
+		VenueNextWeb.shared.configureAnalytics(demoAnalyticsHandler)
 	}
 	
 	func numberOfSections(in tableView: UITableView) -> Int {
