@@ -1,0 +1,609 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VNWebSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import CoreLocation
+import Foundation
+import Swift
+import SwiftJWT
+import UIKit
+@_exported import VNWebSDK
+import WebKit
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc public class VNPaymentProcessor : ObjectiveC.NSObject {
+  @objc public static var shared: VNWebSDK.PaymentProcessable?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol PaymentProcessable {
+  @objc func processPayment(from viewController: UIKit.UIViewController?, transactionData: [Swift.String : Any], completion: @escaping (VNWebSDK.PaymentRepresentable?, Foundation.NSError?) -> Swift.Void)
+  @objc func completedPayment(orderId: Swift.String, quantity: Swift.Int, discount: Swift.Double, tips: Swift.Double, tax: Swift.Double, total: Swift.Double, paymentTypes: Swift.String?)
+}
+@objc public protocol PaymentRepresentable {
+  @objc var nonce: Swift.String { get set }
+  @objc var cardType: Swift.String { get set }
+  @objc var lastFour: Swift.String { get set }
+  @objc var cardHolderName: Swift.String? { get set }
+  @objc var instrument: VNWebSDK.PaymentMethodInstrument { get set }
+}
+@objc public enum PaymentMethodInstrument : Swift.Int {
+  case creditCard
+  case applePay
+  public var stringValue: Swift.String {
+    get
+  }
+  public static func value(for paymentMethod: Swift.String) -> VNWebSDK.PaymentMethodInstrument
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class VNNavigation : ObjectiveC.NSObject {
+  @objc public static func foodAndBeverage() -> UIKit.UINavigationController?
+  @objc public static func foodAndBeverage(serviceType: VNWebSDK.ServiceType) -> UIKit.UINavigationController?
+  @objc public static func merchandise() -> UIKit.UINavigationController?
+  @objc public static func merchandise(serviceType: VNWebSDK.ServiceType) -> UIKit.UINavigationController?
+  @objc public static func experiences() -> UIKit.UINavigationController?
+  @objc public static func foodAndBeverageMenu(menu: Swift.String?) -> UIKit.UINavigationController?
+  @objc public static func merchandiseMenu(menu: Swift.String?) -> UIKit.UINavigationController?
+  @objc public static func experienceMenu(menu: Swift.String?, event: Swift.String?) -> UIKit.UINavigationController?
+  @objc public static func experienceDetails(menu: Swift.String?, item: Swift.String?, event: Swift.String?, variant: Swift.String?) -> UIKit.UINavigationController?
+  @objc public static func wallet() -> UIKit.UINavigationController?
+  @objc public static func virtualCurrentyActivity() -> UIKit.UINavigationController?
+  @objc public static func orderHistory() -> UIKit.UINavigationController?
+  @objc public static func orderReceipt(receipt: Swift.String) -> UIKit.UINavigationController?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class VNRVCDeepLinkable : VNWebSDK.VNDeepLinkable {
+  public func route<T>(for url: Foundation.URL) -> T? where T : Swift.RawRepresentable, T.RawValue == Swift.String
+  public func canHandle(url: Foundation.URL) -> Swift.Bool
+  public func handle(url: Foundation.URL, presenter: UIKit.UIViewController, completion: ((Swift.Bool) -> Swift.Void)?)
+  @objc deinit
+}
+@objc public enum ServiceType : Swift.Int {
+  case delivery
+  case pickup
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension VNWebSDK.ServiceType : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension VNWebSDK.VenueNextWeb : VNWebSDK.VNDeepLinkable {
+  public func route<T>(for url: Foundation.URL) -> T? where T : Swift.RawRepresentable, T.RawValue == Swift.String
+  @objc dynamic public func canHandle(url: Foundation.URL) -> Swift.Bool
+  @objc dynamic public func handle(url: Foundation.URL, presenter: UIKit.UIViewController, completion: ((Swift.Bool) -> Swift.Void)?)
+}
+public typealias VN = VNWebSDK.VenueNextWeb
+@objc @_inheritsConvenienceInitializers public class VenueNextWeb : ObjectiveC.NSObject {
+  @objc public static let shared: VNWebSDK.VenueNextWeb
+  public var currentDomain: Swift.String? {
+    get
+  }
+  public var currentUser: VNWebSDK.User? {
+    get
+  }
+  public var sectionRowSeat: VNWebSDK.SectionRowSeat? {
+    get
+  }
+  public var privateKeyPath: Foundation.URL?
+  public var privateKeyString: Swift.String?
+  public var signedJWT: Swift.String?
+  public var isExternalPaymentProcessor: Swift.Bool {
+    get
+  }
+  public var supportsMultipleOrders: Swift.Bool
+  public var rvcDeepLinkable: VNWebSDK.VNRVCDeepLinkable {
+    get
+  }
+  public var orderDeepLinkable: VNWebSDK.VNOrderDeepLinkable {
+    get
+  }
+  public var walletDeepLinkable: VNWebSDK.VNWalletDeepLinkable {
+    get
+  }
+  public var adapter: VNWebSDK.VNAnalyticsProtocol? {
+    get
+  }
+  public var navigationDelegate: VNWebSDK.VNNavigationProtocol? {
+    get
+  }
+  public var paymentProcessor: VNWebSDK.PaymentProcessable? {
+    get
+  }
+  public var theme: VNWebSDK.VNThemable? {
+    get
+  }
+  public func retrieveExternalVenueMapping(_ externalRefIds: [Swift.String], completion: @escaping ((VNWebSDK.VenueMappings?) -> Swift.Void))
+  @objc public func initialize(_ org: Swift.String, instance: Swift.String)
+  @objc public func initialize(_ org: Swift.String, instance: Swift.String, env: Swift.String)
+  @objc public func configureBrainTree(_ processor: VNWebSDK.PaymentProcessable, completion: @escaping ((Foundation.NSError?) -> Swift.Void))
+  @objc public func configureExternalPaymentProcessor(_ processor: VNWebSDK.PaymentProcessable, completion: @escaping ((Foundation.NSError?) -> Swift.Void))
+  @objc public func initialize(domain: Swift.String, org: Swift.String, instance: Swift.String, env: Swift.String)
+  @objc public func setUser(_ user: VNWebSDK.User)
+  @objc public func logUserOut()
+  public func configureAnalytics(_ adapter: VNWebSDK.VNAnalyticsProtocol)
+  public func configureNavDelegate(_ delegate: VNWebSDK.VNNavigationProtocol)
+  public func configureTheme(_ theme: VNWebSDK.VNThemable)
+  public func setSectionRowSeat(sectionRowSeat: VNWebSDK.SectionRowSeat?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension VNWebSDK.VenueNextWeb {
+  @objc public static func canHandle(url: Foundation.URL) -> Swift.Bool
+  @objc public static func handle(url: Foundation.URL, presenter: UIKit.UIViewController, completion: ((Swift.Bool) -> Swift.Void)?)
+}
+public struct DeepLinkConfig : Swift.Codable {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case productType
+    case serviceType
+    case route
+    case eventId
+    case menuId
+    case itemId
+    case variantId
+    case user
+    case platform
+    case bearerToken
+    case sdkVersion
+    case sdkBundleId
+    case isExternalPaymentProcessor
+    case bgColor
+    case accentColor
+    case sectionRowSeat
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init()
+  public init(route: Swift.String?)
+  public init(productType: VNWebSDK.ProductType)
+  public init(productType: VNWebSDK.ProductType, serviceType: VNWebSDK.ServiceType)
+  public init(menu: Swift.String?)
+  public init(productType: VNWebSDK.ProductType, menu: Swift.String?)
+  public init(productType: VNWebSDK.ProductType, menu: Swift.String?, item: Swift.String?)
+  public init(productType: VNWebSDK.ProductType, menu: Swift.String?, event: Swift.String?)
+  public init(productType: VNWebSDK.ProductType, serviceType: VNWebSDK.ServiceType, menu: Swift.String?, item: Swift.String?, event: Swift.String?, variant: Swift.String?, route: Swift.String?)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UIKit.UINavigationController {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushRVCS()
+  @_Concurrency.MainActor(unsafe) public func presentRVCS(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushRVCS(noWaitTimes: Swift.Bool, serviceType: VNWebSDK.ServiceType, locations: [Swift.String], categories: [Swift.String])
+  @_Concurrency.MainActor(unsafe) public func presentRVCS(noWaitTimes: Swift.Bool, serviceType: VNWebSDK.ServiceType, locations: [Swift.String], categories: [Swift.String], completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushFnB()
+  @_Concurrency.MainActor(unsafe) public func presentFnB(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushFnB(serviceType: VNWebSDK.ServiceType)
+  @_Concurrency.MainActor(unsafe) public func presentFnB(serviceType: VNWebSDK.ServiceType, completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushFnB(noWaitTimes: Swift.Bool, serviceType: VNWebSDK.ServiceType, locations: [Swift.String], categories: [Swift.String])
+  @_Concurrency.MainActor(unsafe) public func presentFnB(noWaitTimes: Swift.Bool, serviceType: VNWebSDK.ServiceType, locations: [Swift.String], categories: [Swift.String], completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushMerchandise()
+  @_Concurrency.MainActor(unsafe) public func presentMerchandise(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushMerchandise(serviceType: VNWebSDK.ServiceType)
+  @_Concurrency.MainActor(unsafe) public func presentMerchandise(serviceType: VNWebSDK.ServiceType, completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushMerchandise(noWaitTimes: Swift.Bool, serviceType: VNWebSDK.ServiceType, locations: [Swift.String], categories: [Swift.String])
+  @_Concurrency.MainActor(unsafe) public func presentMerchandise(noWaitTimes: Swift.Bool, serviceType: VNWebSDK.ServiceType, locations: [Swift.String], categories: [Swift.String], completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushExperiences()
+  @_Concurrency.MainActor(unsafe) public func presentExperiences(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushFnBMenu(menu: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func presentFnB(menu: Swift.String?, completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushMerchandiseMenu(menu: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func presentMerchandiseMenu(menu: Swift.String?, completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushExperienceMenu(menu: Swift.String?, event: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func presentExperienceMenu(menu: Swift.String?, event: Swift.String?, completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushFoodMenuItem(menu: Swift.String?, item: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func presentFoodMenuItem(menu: Swift.String?, item: Swift.String?, completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushMerchandiseMenuItem(menu: Swift.String?, item: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func presentMerchandiseMenuItem(menu: Swift.String?, item: Swift.String?, completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushExperienceDetails(menu: Swift.String?, item: Swift.String?, event: Swift.String?, variant: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func presentExperienceDetails(menu: Swift.String?, item: Swift.String?, event: Swift.String?, variant: Swift.String?, completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushWallet()
+  @_Concurrency.MainActor(unsafe) public func presentWallet(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushVirtualCurrencyActivity()
+  @_Concurrency.MainActor(unsafe) public func presentVirtualCurrencyActivity(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushOrderHistory()
+  @_Concurrency.MainActor(unsafe) public func presentOrderHistory(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushOrderReceipt(receipt: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func presentOrderReceipt(receipt: Swift.String, completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushSendVirtualCurrency()
+  @_Concurrency.MainActor(unsafe) public func presentSendVirtualCurrency(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushScanAndPay()
+  @_Concurrency.MainActor(unsafe) public func presentScanAndPay(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushScanner()
+  @_Concurrency.MainActor(unsafe) public func presentScanner(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushQrCode()
+  @_Concurrency.MainActor(unsafe) public func presentQrCode(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushBenefitsAndRewards()
+  @_Concurrency.MainActor(unsafe) public func presentBenefitsAndRewards(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushMyInfo()
+  @_Concurrency.MainActor(unsafe) public func presentMyInfo(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushPayments()
+  @_Concurrency.MainActor(unsafe) public func presentPayments(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushBadge()
+  @_Concurrency.MainActor(unsafe) public func presentBadge(completion: (() -> Swift.Void)?)
+}
+public protocol VNDeepLinkable {
+  func canHandle(url: Foundation.URL) -> Swift.Bool
+  func handle(url: Foundation.URL, presenter: UIKit.UIViewController, completion: ((Swift.Bool) -> Swift.Void)?)
+  func route<T>(for url: Foundation.URL) -> T? where T : Swift.RawRepresentable, T.RawValue == Swift.String
+}
+public protocol VNIdentifiable {
+  static var classStringName: Swift.String { get }
+  static var domain: Swift.String { get }
+}
+extension ObjectiveC.NSObject : VNWebSDK.VNIdentifiable {
+  @objc dynamic open class var classStringName: Swift.String {
+    @objc get
+  }
+  @objc dynamic open class var domain: Swift.String {
+    @objc get
+  }
+}
+extension Foundation.NSError {
+  convenience public init<Domain>(sourceClass: Domain.Type, code: Swift.Int, userInfo: [Swift.String : Any]?) where Domain : VNWebSDK.VNIdentifiable
+  convenience public init(source: VNWebSDK.VNIdentifiable, code: Swift.Int, userInfo: [Swift.String : Any]?)
+  convenience public init<Domain>(sourceClass: Domain.Type, code: Swift.Int, localizableMessage: Swift.String) where Domain : VNWebSDK.VNIdentifiable
+  convenience public init<Domain>(sourceClass: Domain.Type, code: Swift.Int, localizableMessage: Swift.String, failureReason: Swift.String) where Domain : VNWebSDK.VNIdentifiable
+}
+@objc public enum AnalyticsEvent : Swift.Int {
+  case trackUser
+  case trackUserAffiliations
+  case trackRvcSelection
+  case trackMenuItemSelection
+  case trackBeginCheckout
+  case trackAddItemToCart
+  case trackRemoveItemFromCart
+  case trackCompletedPurchase
+  case trackCheckoutProgress
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension VNWebSDK.AnalyticsEvent : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class VNWalletDeepLinkable : VNWebSDK.VNDeepLinkable {
+  public func route<T>(for url: Foundation.URL) -> T? where T : Swift.RawRepresentable, T.RawValue == Swift.String
+  public func canHandle(url: Foundation.URL) -> Swift.Bool
+  public func handle(url: Foundation.URL, presenter: UIKit.UIViewController, completion: ((Swift.Bool) -> Swift.Void)?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class User : ObjectiveC.NSObject, Swift.Codable, SwiftJWT.Claims {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case id
+    case email
+    case firstName
+    case lastName
+    case phoneNumber
+    case provider
+    case accessToken
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  convenience public init(_ id: Swift.String)
+  convenience public init(_ id: Swift.String, provider: Swift.String)
+  convenience public init(accessToken: Swift.String, provider: Swift.String)
+  convenience public init(_ id: Swift.String, email: Swift.String?)
+  convenience public init(_ id: Swift.String, email: Swift.String?, firstName: Swift.String?)
+  convenience public init(_ id: Swift.String, email: Swift.String?, firstName: Swift.String?, lastName: Swift.String?)
+  convenience public init(_ id: Swift.String, email: Swift.String?, firstName: Swift.String?, lastName: Swift.String?, phoneNumber: Swift.String?, provider: Swift.String?)
+  convenience public init(_ id: Swift.String?, email: Swift.String?, firstName: Swift.String?, lastName: Swift.String?, phoneNumber: Swift.String?, provider: Swift.String?, accessToken: Swift.String?)
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public protocol VNAnalyticsProtocol {
+  @objc func trackUserId(_ id: Swift.String, email: Swift.String?, name: Swift.String?)
+  @objc func trackUserAffiliations(_ affiliations: [Swift.String])
+  @objc func trackRvcSelection(itemId: Swift.String, itemName: Swift.String, itemCategory: Swift.String)
+  @objc func trackMenuItemSelection(itemId: Swift.String, itemName: Swift.String, itemCategory: Swift.String, variant: Swift.String, price: Swift.Int)
+  @objc func trackBeginCheckout()
+  @objc func trackAddItemToCart(itemId: Swift.String, itemName: Swift.String, itemCategory: Swift.String, variant: Swift.String, price: Swift.Int, quantity: Swift.Int)
+  @objc func trackRemoveItemFromCart(itemId: Swift.String, itemName: Swift.String, itemCategory: Swift.String, variant: Swift.String, price: Swift.Int, quantity: Swift.Int)
+  @objc func trackCompletedPurchase(orderId: Swift.String, quantity: Swift.Int, discount: Swift.Double, tips: Swift.Double, tax: Swift.Double, total: Swift.Double, paymentTypes: Swift.String?, name: Swift.String?, email: Swift.String?)
+  @objc func trackCheckoutProgress(orderId: Swift.String, state: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class VNOrderDeepLinkable : VNWebSDK.VNDeepLinkable {
+  public func route<T>(for url: Foundation.URL) -> T? where T : Swift.RawRepresentable, T.RawValue == Swift.String
+  public func canHandle(url: Foundation.URL) -> Swift.Bool
+  public func handle(url: Foundation.URL, presenter: UIKit.UIViewController, completion: ((Swift.Bool) -> Swift.Void)?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) final public class WebViewController : UIKit.UIViewController, WebKit.WKNavigationDelegate, WebKit.WKUIDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) final public func setWebViewFrame(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) final public func setConfig(_ config: VNWebSDK.DeepLinkConfig)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @objc deinit
+}
+extension VNWebSDK.WebViewController : WebKit.WKScriptMessageHandler, CoreLocation.CLLocationManagerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor(unsafe) @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  @_Concurrency.MainActor(unsafe) @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @_Concurrency.MainActor(unsafe) final public func didDismissi4Go(receiptUuid: Swift.String?, isExperience: Swift.Bool, error: Swift.String?)
+}
+@objc public enum VNWebPageType : Swift.Int {
+  case vendors
+  case menu
+  case receipt
+  case wallet
+  case walletVcActivity
+  case walletVcTransfer
+  case walletAwardsRules
+  case walletSettings
+  case walletPayments
+  case walletBadge
+  case walletScanAndPay
+  case walletScanner
+  case walletQrCode
+  case unknown
+  public var stringValue: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension VNWebSDK.VNWebPageType : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension Swift.KeyedEncodingContainer {
+  public mutating func encode(_ value: [Swift.String : Any], forKey key: Swift.KeyedEncodingContainer<K>.Key) throws
+  public mutating func encode(_ value: [Any], forKey key: Swift.KeyedEncodingContainer<K>.Key) throws
+  public mutating func encodeIfPresent(_ value: [Swift.String : Any]?, forKey key: Swift.KeyedEncodingContainer<K>.Key) throws
+  public mutating func encodeIfPresent(_ value: [Any]?, forKey key: Swift.KeyedEncodingContainer<K>.Key) throws
+}
+@objc public enum WalletMode : Swift.Int {
+  case both
+  case qrCodeOnly
+  case qrScannerOnly
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol VNNavigationProtocol {
+  @objc func webViewDismissed()
+  @objc func webViewWillDismiss(_ pageType: VNWebSDK.VNWebPageType)
+  @objc func webViewDidDismiss(_ pageType: VNWebSDK.VNWebPageType)
+}
+extension Foundation.Bundle {
+  public var displayName: Swift.String {
+    get
+  }
+  public var versionNumber: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class DeepLinkRoute {
+  @objc deinit
+}
+public typealias WalletRoutes = VNWebSDK.DeepLinkRoute.WalletRoutes
+extension VNWebSDK.DeepLinkRoute {
+  public enum WalletRoutes : Swift.String, Swift.CaseIterable {
+    case sendVirtualCurrency
+    case benefitsAndRewards
+    case virtualCurrencyActivity
+    case scanAndPay
+    case scanner
+    case qrCode
+    case showPayments
+    case showBadge
+    case wallet
+    case myInfo
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [VNWebSDK.DeepLinkRoute.WalletRoutes]
+    public typealias RawValue = Swift.String
+    public static var allCases: [VNWebSDK.DeepLinkRoute.WalletRoutes] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+public typealias RVCRoutes = VNWebSDK.DeepLinkRoute.RVCRoutes
+extension VNWebSDK.DeepLinkRoute {
+  public enum RVCRoutes : Swift.String, Swift.CaseIterable {
+    case menu
+    case rvcHome
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [VNWebSDK.DeepLinkRoute.RVCRoutes]
+    public typealias RawValue = Swift.String
+    public static var allCases: [VNWebSDK.DeepLinkRoute.RVCRoutes] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+public typealias OrderRoutes = VNWebSDK.DeepLinkRoute.OrderRoutes
+extension VNWebSDK.DeepLinkRoute {
+  public enum OrderRoutes : Swift.String, Swift.CaseIterable {
+    case orderHistory
+    case orderReceipt
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [VNWebSDK.DeepLinkRoute.OrderRoutes]
+    public typealias RawValue = Swift.String
+    public static var allCases: [VNWebSDK.DeepLinkRoute.OrderRoutes] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+@objc public protocol VNThemable {
+  @objc var navigationBarBackground: UIKit.UIColor { get }
+  @objc var accent: UIKit.UIColor { get }
+  @objc var backString: Swift.String { get }
+  @objc var closeString: Swift.String { get }
+}
+@_inheritsConvenienceInitializers @objc open class VNBaseTheme : ObjectiveC.NSObject, VNWebSDK.VNThemable {
+  public static let shared: VNWebSDK.VNBaseTheme
+  @objc public var navigationBarBackground: UIKit.UIColor
+  @objc public var accent: UIKit.UIColor
+  @objc public var backString: Swift.String
+  @objc public var closeString: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Swift.KeyedDecodingContainer {
+  public func decode(_ type: [Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Any]
+  public func decode(_ type: [Swift.String : Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Swift.String : Any]
+  public func decodeIfPresent(_ type: [Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Any]?
+  public func decodeIfPresent(_ type: [Swift.String : Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Swift.String : Any]?
+}
+public struct VenueMappings : Swift.Codable {
+  public var venues: [VNWebSDK.VenueMap]?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct VenueMap : Swift.Codable {
+  public var id: Swift.String?
+  public var externalRefId: Swift.String?
+  public var instance: Swift.String?
+  public var org: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class SectionRowSeat : ObjectiveC.NSObject, Swift.Codable {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case section
+    case row
+    case seat
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  convenience public init(section: Swift.String?, row: Swift.String?, seat: Swift.String?)
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public enum ProductType : Swift.Int {
+  case food
+  case merchandise
+  case experience
+  case all
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension VNWebSDK.ProductType : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class VNWebViewFactory : ObjectiveC.NSObject {
+  @objc public static func foodAndBeverage() -> VNWebSDK.WebViewController?
+  @objc public static func foodAndBeverage(serviceType: VNWebSDK.ServiceType) -> VNWebSDK.WebViewController?
+  @objc public static func merchandise() -> VNWebSDK.WebViewController?
+  @objc public static func merchandise(serviceType: VNWebSDK.ServiceType) -> VNWebSDK.WebViewController?
+  @objc public static func experiences() -> VNWebSDK.WebViewController?
+  @objc public static func foodAndBeverageMenu(menu: Swift.String?) -> VNWebSDK.WebViewController?
+  @objc public static func merchandiseMenu(menu: Swift.String?) -> VNWebSDK.WebViewController?
+  @objc public static func experienceMenu(menu: Swift.String?, event: Swift.String?) -> VNWebSDK.WebViewController?
+  @objc public static func experienceDetails(menu: Swift.String?, item: Swift.String?, event: Swift.String?, variant: Swift.String?) -> VNWebSDK.WebViewController?
+  @objc public static func wallet() -> VNWebSDK.WebViewController?
+  @objc public static func virtualCurrentyActivity() -> VNWebSDK.WebViewController?
+  @objc public static func orderHistory() -> VNWebSDK.WebViewController?
+  @objc public static func orderReceipt(receipt: Swift.String) -> VNWebSDK.WebViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension VNWebSDK.PaymentMethodInstrument : Swift.Equatable {}
+extension VNWebSDK.PaymentMethodInstrument : Swift.Hashable {}
+extension VNWebSDK.PaymentMethodInstrument : Swift.RawRepresentable {}
+extension VNWebSDK.ServiceType : Swift.Equatable {}
+extension VNWebSDK.ServiceType : Swift.Hashable {}
+extension VNWebSDK.ServiceType : Swift.RawRepresentable {}
+extension VNWebSDK.DeepLinkConfig.CodingKeys : Swift.Equatable {}
+extension VNWebSDK.DeepLinkConfig.CodingKeys : Swift.Hashable {}
+extension VNWebSDK.DeepLinkConfig.CodingKeys : Swift.RawRepresentable {}
+extension VNWebSDK.AnalyticsEvent : Swift.Equatable {}
+extension VNWebSDK.AnalyticsEvent : Swift.Hashable {}
+extension VNWebSDK.AnalyticsEvent : Swift.RawRepresentable {}
+extension VNWebSDK.User.CodingKeys : Swift.Equatable {}
+extension VNWebSDK.User.CodingKeys : Swift.Hashable {}
+extension VNWebSDK.User.CodingKeys : Swift.RawRepresentable {}
+extension VNWebSDK.VNWebPageType : Swift.Equatable {}
+extension VNWebSDK.VNWebPageType : Swift.Hashable {}
+extension VNWebSDK.VNWebPageType : Swift.RawRepresentable {}
+extension VNWebSDK.WalletMode : Swift.Equatable {}
+extension VNWebSDK.WalletMode : Swift.Hashable {}
+extension VNWebSDK.WalletMode : Swift.RawRepresentable {}
+extension VNWebSDK.DeepLinkRoute.WalletRoutes : Swift.Equatable {}
+extension VNWebSDK.DeepLinkRoute.WalletRoutes : Swift.Hashable {}
+extension VNWebSDK.DeepLinkRoute.WalletRoutes : Swift.RawRepresentable {}
+extension VNWebSDK.DeepLinkRoute.RVCRoutes : Swift.Equatable {}
+extension VNWebSDK.DeepLinkRoute.RVCRoutes : Swift.Hashable {}
+extension VNWebSDK.DeepLinkRoute.RVCRoutes : Swift.RawRepresentable {}
+extension VNWebSDK.DeepLinkRoute.OrderRoutes : Swift.Equatable {}
+extension VNWebSDK.DeepLinkRoute.OrderRoutes : Swift.Hashable {}
+extension VNWebSDK.DeepLinkRoute.OrderRoutes : Swift.RawRepresentable {}
+extension VNWebSDK.SectionRowSeat.CodingKeys : Swift.Equatable {}
+extension VNWebSDK.SectionRowSeat.CodingKeys : Swift.Hashable {}
+extension VNWebSDK.SectionRowSeat.CodingKeys : Swift.RawRepresentable {}
+extension VNWebSDK.ProductType : Swift.Equatable {}
+extension VNWebSDK.ProductType : Swift.Hashable {}
+extension VNWebSDK.ProductType : Swift.RawRepresentable {}
