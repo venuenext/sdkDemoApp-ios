@@ -21,6 +21,7 @@
 		322D5E992912D4D600FB3F5F /* VNDemoTicketingUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D5E982912D4D600FB3F5F /* VNDemoTicketingUser.swift */; };
 		322D5E9B2912DE9E00FB3F5F /* VNDemoTicketingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D5E9A2912DE9E00FB3F5F /* VNDemoTicketingViewController.swift */; };
 		326E30482915804300502FF4 /* arena_dev_pkcs8_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 326E30472915804100502FF4 /* arena_dev_pkcs8_private_key.pem */; };
+		327FD02A294A407200BFF2BC /* VNDemoAnalyticsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FD029294A407200BFF2BC /* VNDemoAnalyticsHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,7 @@
 		322D5E982912D4D600FB3F5F /* VNDemoTicketingUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNDemoTicketingUser.swift; sourceTree = "<group>"; };
 		322D5E9A2912DE9E00FB3F5F /* VNDemoTicketingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNDemoTicketingViewController.swift; sourceTree = "<group>"; };
 		326E30472915804100502FF4 /* arena_dev_pkcs8_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = arena_dev_pkcs8_private_key.pem; path = ../../arena_dev_pkcs8_private_key.pem; sourceTree = "<group>"; };
+		327FD029294A407200BFF2BC /* VNDemoAnalyticsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNDemoAnalyticsHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				326E30472915804100502FF4 /* arena_dev_pkcs8_private_key.pem */,
 				322D5E6F2911763C00FB3F5F /* AppDelegate.swift */,
 				322D5E932912BE4400FB3F5F /* VNDemoCustomTheme.swift */,
+				327FD029294A407200BFF2BC /* VNDemoAnalyticsHandler.swift */,
 				322D5E952912D41C00FB3F5F /* Ticketing */,
 				322D5E8D2911BA1400FB3F5F /* Ordering */,
 				322D5E8C2911BA0B00FB3F5F /* Wallet */,
@@ -220,6 +223,7 @@
 				322D5E972912D43800FB3F5F /* VNDemoTicketingAPI.swift in Sources */,
 				322D5E702911763C00FB3F5F /* AppDelegate.swift in Sources */,
 				322D5E992912D4D600FB3F5F /* VNDemoTicketingUser.swift in Sources */,
+				327FD02A294A407200BFF2BC /* VNDemoAnalyticsHandler.swift in Sources */,
 				322D5E8B2911B85A00FB3F5F /* VNDemoOrderingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
