@@ -6,6 +6,6 @@ framework module VNWebSDK {
 }
 
 module VNWebSDK.Swift {
-    header "VNWebSDK-Swift.h"
-    requires objc
+  header "VNWebSDK-Swift.h"
+  requires objc
 }

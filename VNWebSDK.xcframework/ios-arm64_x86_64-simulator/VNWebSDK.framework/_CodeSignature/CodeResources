@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		V6JFNS/HpvRocEsIcXgtIvOdhpg=
+		F1oQy4DjpK4Hzzh0zekksT4DcEY=
 		</data>
 		<key>Headers/VNWebSDK-Swift.h</key>
 		<data>
-		x+DlufEO899SQR6LyD4BD3ZXcA0=
+		XumH0BeXrrdF/YOA4TZ6ckIw0U4=
 		</data>
 		<key>Headers/VNWebSDK.h</key>
 		<data>
@@ -18,59 +18,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/yG8q9uONFEVQadbwHQsc7SVYDw=
+		0oTAMMW8ozxHB3lt3ZsFb3gWt6g=
+		</data>
+		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		iiVNgxkVQUFueClr6Ap2B8MsBA8=
+		</data>
+		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		L1j+5KrGo73EU1Swf493EwDzo+U=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NIIb2vTMJdjM62r7bp1gIfrig2k=
+		h32o+YfbBob6YFVEELhFHMw8xt4=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		g6GqGycfa/2u58+8WZKpJcAHpos=
+		L1j+5KrGo73EU1Swf493EwDzo+U=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4Rz5HpMkAPUsg4kMXnSTJ8hnkYw=
+		eimIocieacbfVGbO3wAiPeWgYOg=
 		</data>
-		<key>Modules/VNWebSDK.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NIIb2vTMJdjM62r7bp1gIfrig2k=
+		iiVNgxkVQUFueClr6Ap2B8MsBA8=
 		</data>
-		<key>Modules/VNWebSDK.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		g6GqGycfa/2u58+8WZKpJcAHpos=
-		</data>
-		<key>Modules/VNWebSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		4Rz5HpMkAPUsg4kMXnSTJ8hnkYw=
+		2qyAphEAj8msxYcLYGqxuhZzppM=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cvQ2bVKgGrWbWysb7moQMs7AaIE=
+		dfG6q/DfpS71L/gnlCYrSc/6l0w=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XvKPR7K3wY9lqX/I7rORIKPzF6s=
+		2qyAphEAj8msxYcLYGqxuhZzppM=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sKZ14VrVQ5AH0ruRNc4Y++FNv1E=
-		</data>
-		<key>Modules/VNWebSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		cvQ2bVKgGrWbWysb7moQMs7AaIE=
-		</data>
-		<key>Modules/VNWebSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		XvKPR7K3wY9lqX/I7rORIKPzF6s=
-		</data>
-		<key>Modules/VNWebSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		sKZ14VrVQ5AH0ruRNc4Y++FNv1E=
+		mSavkANdSDc2Af3OMfEqdP20LfU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		mXzP2O2+iwQznr+OkT9CFW6fIKA=
+		NBaKH/tda/OE9kVj3UVqAJIQxdQ=
 		</data>
 		<key>OpenSans-Bold.ttf</key>
 		<data>
@@ -114,7 +106,7 @@
 		</data>
 		<key>QRViewController.nib</key>
 		<data>
-		HTZua3SJxA6cF5mPBchLGomsGhI=
+		SRFe+5CQH0muxpi18pB2R4/vkXU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -123,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LVXhnJUocs/A3UoxRVeru/Z9zdukT/3uDZDoFMTCc+M=
+			CW1tT79w8ox3U5JyVwuZQU1bhRdRMfAgMal+NIIMA3M=
 			</data>
 		</dict>
 		<key>Headers/VNWebSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j67vL1bFQrU/YgmAUAt92QYJ2vTEldh7CBczXE0+r8k=
+			5R6DV2ZGqGb0lce+BbgAKW/481UhzAInEa+WzR3m6dA=
 			</data>
 		</dict>
 		<key>Headers/VNWebSDK.h</key>
@@ -140,95 +132,81 @@
 			32PvDJL+M7HlnL+2FXFaADIxbV7IAp0nH2Y6NgFRBzg=
 			</data>
 		</dict>
+		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6gNre7KooMZfPSEfYGcQp9eB2Z5160DJGcvO4vCcAQQ=
+			</data>
+		</dict>
+		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F/uLVQJcz7eG+Iluz6svFhkPfzxAN9mMBCmQlhp13Hk=
+			</data>
+		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M4WopKcVXK4HXL0zsvS4cTVa/dvWjPf72+7UMS7TL/o=
+			XYjKyRC47rKr/7Pw7kJlxlK/WhsFbo6iZQNGvCqmz7w=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAL9LOWY38qA7h7fw44ZgQuHZmAwLatDC7wV+CjvsB4=
+			F/uLVQJcz7eG+Iluz6svFhkPfzxAN9mMBCmQlhp13Hk=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/iWeOKIQoR7kQvgB5Mjnw8gDFtqU3mVIPV3IgpLUUsY=
+			B4eGJaIZQl612fckR9qRyPOrsZDr0ur//LP+AIAK0F4=
 			</data>
 		</dict>
-		<key>Modules/VNWebSDK.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M4WopKcVXK4HXL0zsvS4cTVa/dvWjPf72+7UMS7TL/o=
+			6gNre7KooMZfPSEfYGcQp9eB2Z5160DJGcvO4vCcAQQ=
 			</data>
 		</dict>
-		<key>Modules/VNWebSDK.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAL9LOWY38qA7h7fw44ZgQuHZmAwLatDC7wV+CjvsB4=
-			</data>
-		</dict>
-		<key>Modules/VNWebSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/iWeOKIQoR7kQvgB5Mjnw8gDFtqU3mVIPV3IgpLUUsY=
+			UblOTINEqQZY4JVKSfidAZfZf98IFJ38gG6TgCf6rhM=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9YyrL9Mk4bTdeX+ecch2xcJ3vaQyoPpDQDnrcXfrNYE=
+			MOv/tJ+V6K3QNtbF9sEO3WeVqHpVQvlw0HxKxyfoTak=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v3s9H79729ZmbXt08NcZ5/Bv2FsLvUjEW+UgxX//m/c=
+			UblOTINEqQZY4JVKSfidAZfZf98IFJ38gG6TgCf6rhM=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C/birHOOvvGKfDR7e2manle8gVlAUTnDBwoSwbiqKYo=
-			</data>
-		</dict>
-		<key>Modules/VNWebSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9YyrL9Mk4bTdeX+ecch2xcJ3vaQyoPpDQDnrcXfrNYE=
-			</data>
-		</dict>
-		<key>Modules/VNWebSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			v3s9H79729ZmbXt08NcZ5/Bv2FsLvUjEW+UgxX//m/c=
-			</data>
-		</dict>
-		<key>Modules/VNWebSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			C/birHOOvvGKfDR7e2manle8gVlAUTnDBwoSwbiqKYo=
+			6XR67QBvrw9n6WDpBxtmqOsOcpNX8DAwBvLdOYMyHWE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZTqCk7rSIzCBONHu1mBMEQiArTOGDU4C55KBqlSQBHw=
+			asVJ9wQJs/9w+BCBSV0nb2GlCLhU79Iy8PnOPaMeNJg=
 			</data>
 		</dict>
 		<key>OpenSans-Bold.ttf</key>
@@ -305,7 +283,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRN8/oO3cuIb7TC6h2iNJCy93lbhvaslysHLxxNUH2Y=
+			AvY5gRJfpNatq11wH5jSwY+qHt/Y4JESBqtJltHcBCs=
 			</data>
 		</dict>
 	</dict>
