@@ -1,0 +1,11 @@
+framework module VNWebSDK {
+  umbrella header "VNWebSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module VNWebSDK.Swift {
+  header "VNWebSDK-Swift.h"
+  requires objc
+}
