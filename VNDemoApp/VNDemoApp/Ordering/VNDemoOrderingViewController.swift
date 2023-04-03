@@ -34,16 +34,6 @@ fileprivate let SPECIFIC_MERCH_ITEM = "Show A Specific Merchandise Item"
 fileprivate let SPECIFIC_EXPERIENCE_EVENT = "Show A Specific Experience Menu With An Event Pre-Populated"
 fileprivate let SPECIFIC_EXPERIENCE_EVENT_DETAILS = "Show A Detail View For And Experience Item"
 
-fileprivate let BADGE = "Badge"
-fileprivate let WALLET = "Wallet"
-fileprivate let SCAN_AND_PAY = "Scan And Pay"
-fileprivate let VC_ACTIVITY = "Virtual Currency Activity"
-fileprivate let SEND_VC = "Send Virtual Currency"
-fileprivate let BENEFITS = "Benefits And Rewards"
-fileprivate let PAYMENTS = "Payments"
-fileprivate let SCANNER = "Scanner"
-fileprivate let QR_CODE = "QR Code"
-
 class VNDemoOrderingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 	@IBOutlet weak var demoOrderingMethodsTableview: UITableView!
 	
