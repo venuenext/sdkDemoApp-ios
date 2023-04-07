@@ -18960,1351 +18960,1351 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Classes\/VNPaymentProcessor.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Classes\/VNPaymentProcessor.swift",
       "kind": "IntegerLiteral",
       "offset": 1087,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Classes\/VNPaymentProcessor.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Classes\/VNPaymentProcessor.swift",
       "kind": "IntegerLiteral",
       "offset": 1087,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ServiceType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ServiceType.swift",
       "kind": "IntegerLiteral",
       "offset": 119,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ServiceType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ServiceType.swift",
       "kind": "IntegerLiteral",
       "offset": 135,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ServiceType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ServiceType.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ServiceType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ServiceType.swift",
       "kind": "IntegerLiteral",
       "offset": 119,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ServiceType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ServiceType.swift",
       "kind": "IntegerLiteral",
       "offset": 135,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/QRViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/QRViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 773,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/QRViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/QRViewController.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 16,
       "value": "\"VNWebSDK.QRViewController\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/VenueNextWeb.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/VenueNextWeb.swift",
       "kind": "BooleanLiteral",
       "offset": 947,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/VenueNextWeb.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/VenueNextWeb.swift",
       "kind": "BooleanLiteral",
       "offset": 993,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/i4GoApplePayWebViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/i4GoApplePayWebViewController.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 29,
       "value": "\"VNWebSDK.i4GoApplePayWebViewController\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 14,
       "value": "\"product_type\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 747,
       "length": 14,
       "value": "\"service_type\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 792,
       "length": 7,
       "value": "\"route\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 832,
       "length": 10,
       "value": "\"event_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 9,
       "value": "\"menu_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 9,
       "value": "\"item_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 941,
       "length": 12,
       "value": "\"variant_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 6,
       "value": "\"user\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1023,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1070,
       "length": 14,
       "value": "\"bearer_token\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1120,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1161,
       "length": 15,
       "value": "\"sdk_bundle_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 31,
       "value": "\"is_external_payment_processor\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1292,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1330,
       "length": 14,
       "value": "\"accent_color\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1384,
       "length": 18,
       "value": "\"section_row_seat\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 14,
       "value": "\"product_type\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 747,
       "length": 14,
       "value": "\"service_type\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 792,
       "length": 7,
       "value": "\"route\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 832,
       "length": 10,
       "value": "\"event_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 9,
       "value": "\"menu_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 9,
       "value": "\"item_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 941,
       "length": 12,
       "value": "\"variant_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 6,
       "value": "\"user\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1023,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1070,
       "length": 14,
       "value": "\"bearer_token\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1120,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1161,
       "length": 15,
       "value": "\"sdk_bundle_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 31,
       "value": "\"is_external_payment_processor\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1292,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1330,
       "length": 14,
       "value": "\"accent_color\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/DeepLinkConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/DeepLinkConfig.swift",
       "kind": "StringLiteral",
       "offset": 1384,
       "length": 18,
       "value": "\"section_row_seat\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 123,
       "length": 21,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 17,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 22,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 18,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 18,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 269,
       "length": 23,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 302,
       "length": 22,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 21,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1152,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 123,
       "length": 21,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 17,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 22,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 18,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 18,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 269,
       "length": 23,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 302,
       "length": 22,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/AnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 21,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 7,
       "value": "\"email\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 458,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 495,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 14,
       "value": "\"phone_number\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 10,
       "value": "\"provider\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 611,
       "length": 15,
       "value": "\"tmAccessToken\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 7,
       "value": "\"email\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 458,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 495,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 14,
       "value": "\"phone_number\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 10,
       "value": "\"provider\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/User.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/User.swift",
       "kind": "StringLiteral",
       "offset": 611,
       "length": 15,
       "value": "\"tmAccessToken\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/WebViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 547,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/WebViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 847,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/WebViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 897,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/WebViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 941,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/WebViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 987,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/WebViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1079,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Controllers\/WebViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 17,
       "value": "\"VNWebSDK.WebViewController\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 120,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 134,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 151,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 16,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 193,
       "length": 16,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 17,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 246,
       "length": 14,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 270,
       "length": 14,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 294,
       "length": 11,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 315,
       "length": 16,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 341,
       "length": 13,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 12,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 386,
       "length": 7,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "StringLiteral",
       "offset": 1388,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "StringLiteral",
       "offset": 2724,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "StringLiteral",
       "offset": 2748,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 120,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 134,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 151,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 16,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 193,
       "length": 16,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 17,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 246,
       "length": 14,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 270,
       "length": 14,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 294,
       "length": 11,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 315,
       "length": 16,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 341,
       "length": 13,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 12,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/VNWebPageType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/VNWebPageType.swift",
       "kind": "IntegerLiteral",
       "offset": 386,
       "length": 7,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 155,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 172,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 17,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 264,
       "length": 9,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 12,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 305,
       "length": 21,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 336,
       "length": 22,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 368,
       "length": 22,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "StringLiteral",
       "offset": 1280,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 155,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 172,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 17,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 264,
       "length": 9,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 12,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 305,
       "length": 21,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 336,
       "length": 22,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/BridgeDataMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 368,
       "length": 22,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/WalletMode.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/WalletMode.swift",
       "kind": "IntegerLiteral",
       "offset": 114,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/WalletMode.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/WalletMode.swift",
       "kind": "IntegerLiteral",
       "offset": 134,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/WalletMode.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/WalletMode.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/WalletMode.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/WalletMode.swift",
       "kind": "IntegerLiteral",
       "offset": 114,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/WalletMode.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/WalletMode.swift",
       "kind": "IntegerLiteral",
       "offset": 134,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 35,
       "value": "\"\/wallet\/virtual-currency\/transfer\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 39,
       "value": "\"\/wallet\/virtual-currency\/awards-rules\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 624,
       "length": 35,
       "value": "\"\/wallet\/virtual-currency\/activity\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 686,
       "length": 22,
       "value": "\"\/wallet\/scan-and-pay\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 17,
       "value": "\"\/wallet\/scanner\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 772,
       "length": 16,
       "value": "\"\/wallet\/qrcode\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 817,
       "length": 24,
       "value": "\"\/wallet?showPayments=1\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 867,
       "length": 21,
       "value": "\"\/wallet?showBadge=1\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 911,
       "length": 9,
       "value": "\"\/wallet\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 943,
       "length": 19,
       "value": "\"\/profile\/settings\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 35,
       "value": "\"\/wallet\/virtual-currency\/transfer\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 39,
       "value": "\"\/wallet\/virtual-currency\/awards-rules\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 624,
       "length": 35,
       "value": "\"\/wallet\/virtual-currency\/activity\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 686,
       "length": 22,
       "value": "\"\/wallet\/scan-and-pay\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 17,
       "value": "\"\/wallet\/scanner\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 772,
       "length": 16,
       "value": "\"\/wallet\/qrcode\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 817,
       "length": 24,
       "value": "\"\/wallet?showPayments=1\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 867,
       "length": 21,
       "value": "\"\/wallet?showBadge=1\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 911,
       "length": 9,
       "value": "\"\/wallet\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 943,
       "length": 19,
       "value": "\"\/profile\/settings\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 1247,
       "length": 11,
       "value": "\"\/rvc\/menu\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 1336,
       "length": 6,
       "value": "\"\/rvc\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 1247,
       "length": 11,
       "value": "\"\/rvc\/menu\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 1336,
       "length": 6,
       "value": "\"\/rvc\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 1516,
       "length": 17,
       "value": "\"\/order\/activity\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 1602,
       "length": 16,
       "value": "\"\/order\/receipt\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 1516,
       "length": 17,
       "value": "\"\/order\/activity\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
       "offset": 1602,
       "length": 16,
       "value": "\"\/order\/receipt\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Protocol\/VNTheme.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Protocol\/VNTheme.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 6,
       "value": "\"Back\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Protocol\/VNTheme.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Protocol\/VNTheme.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 7,
       "value": "\"Close\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 8,
       "value": "\"venues\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 8,
       "value": "\"venues\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 857,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 891,
       "length": 17,
       "value": "\"external_ref_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 933,
       "length": 15,
       "value": "\"ordernext_url\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 968,
       "length": 19,
       "value": "\"organization_name\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 857,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 891,
       "length": 17,
       "value": "\"external_ref_id\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 933,
       "length": 15,
       "value": "\"ordernext_url\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/VenueMapping.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/VenueMapping.swift",
       "kind": "StringLiteral",
       "offset": 968,
       "length": 19,
       "value": "\"organization_name\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/SectionRowSeat.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/SectionRowSeat.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 9,
       "value": "\"section\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/SectionRowSeat.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/SectionRowSeat.swift",
       "kind": "StringLiteral",
       "offset": 326,
       "length": 5,
       "value": "\"row\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/SectionRowSeat.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/SectionRowSeat.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 6,
       "value": "\"seat\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/SectionRowSeat.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/SectionRowSeat.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 9,
       "value": "\"section\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/SectionRowSeat.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/SectionRowSeat.swift",
       "kind": "StringLiteral",
       "offset": 326,
       "length": 5,
       "value": "\"row\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Models\/SectionRowSeat.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Models\/SectionRowSeat.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 6,
       "value": "\"seat\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ProductType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",
       "kind": "IntegerLiteral",
       "offset": 115,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ProductType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",
       "kind": "IntegerLiteral",
       "offset": 136,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ProductType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",
       "kind": "IntegerLiteral",
       "offset": 156,
       "length": 3,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ProductType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 4,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ProductType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",
       "kind": "StringLiteral",
       "offset": 548,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ProductType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",
       "kind": "IntegerLiteral",
       "offset": 115,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ProductType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",
       "kind": "IntegerLiteral",
       "offset": 136,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ProductType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",
       "kind": "IntegerLiteral",
       "offset": 156,
       "length": 3,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Enum\/ProductType.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 4,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/administrator\/Projects\/Freelance\/VenueNext\/websdk-ios\/VNWebSDK\/Extensions\/UIScreen+Brightness.swift",
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Extensions\/UIScreen+Brightness.swift",
       "kind": "FloatLiteral",
       "offset": 157,
       "length": 3,
