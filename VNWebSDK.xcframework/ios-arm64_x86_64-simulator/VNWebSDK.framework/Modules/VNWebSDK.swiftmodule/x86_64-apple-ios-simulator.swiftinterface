@@ -19,7 +19,7 @@ import _StringProcessing
 }
 @objc public protocol PaymentProcessable {
   @objc func processPayment(from viewController: UIKit.UIViewController?, transactionData: [Swift.String : Any], completion: @escaping (VNWebSDK.PaymentRepresentable?, Foundation.NSError?) -> Swift.Void)
-  @objc func completedPayment(orderId: Swift.String, quantity: Swift.Int, discount: Swift.Double, tips: Swift.Double, tax: Swift.Double, total: Swift.Double, paymentTypes: Swift.String?)
+  @objc func completedPayment(orderId: Swift.String, quantity: Swift.Int, discount: Swift.Int, tips: Swift.Int, tax: Swift.Int, total: Swift.Int, paymentTypes: Swift.String?)
 }
 @objc public protocol PaymentRepresentable {
   @objc var nonce: Swift.String { get set }
@@ -335,7 +335,7 @@ extension VNWebSDK.AnalyticsEvent : Swift.Codable {
   @objc func trackBeginCheckout()
   @objc func trackAddItemToCart(itemId: Swift.String, itemName: Swift.String, itemCategory: Swift.String, variant: Swift.String, price: Swift.Int, quantity: Swift.Int)
   @objc func trackRemoveItemFromCart(itemId: Swift.String, itemName: Swift.String, itemCategory: Swift.String, variant: Swift.String, price: Swift.Int, quantity: Swift.Int)
-  @objc func trackCompletedPurchase(orderId: Swift.String, quantity: Swift.Int, discount: Swift.Double, tips: Swift.Double, tax: Swift.Double, total: Swift.Double, paymentTypes: Swift.String?, name: Swift.String?, email: Swift.String?)
+  @objc func trackCompletedPurchase(orderId: Swift.String, quantity: Swift.Int, discount: Swift.Int, tips: Swift.Int, tax: Swift.Int, total: Swift.Int, paymentTypes: Swift.String?, name: Swift.String?, email: Swift.String?)
   @objc func trackCheckoutProgress(orderId: Swift.String, state: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class VNOrderDeepLinkable : VNWebSDK.VNDeepLinkable {

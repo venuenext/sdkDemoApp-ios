@@ -290,7 +290,7 @@ typedef SWIFT_ENUM(NSInteger, PaymentMethodInstrument, open) {
 SWIFT_PROTOCOL("_TtP8VNWebSDK18PaymentProcessable_")
 @protocol PaymentProcessable
 - (void)processPaymentFrom:(UIViewController * _Nullable)viewController transactionData:(NSDictionary<NSString *, id> * _Nonnull)transactionData completion:(void (^ _Nonnull)(id <PaymentRepresentable> _Nullable, NSError * _Nullable))completion;
-- (void)completedPaymentWithOrderId:(NSString * _Nonnull)orderId quantity:(NSInteger)quantity discount:(double)discount tips:(double)tips tax:(double)tax total:(double)total paymentTypes:(NSString * _Nullable)paymentTypes;
+- (void)completedPaymentWithOrderId:(NSString * _Nonnull)orderId quantity:(NSInteger)quantity discount:(NSInteger)discount tips:(NSInteger)tips tax:(NSInteger)tax total:(NSInteger)total paymentTypes:(NSString * _Nullable)paymentTypes;
 @end
 
 
@@ -446,7 +446,7 @@ SWIFT_PROTOCOL("_TtP8VNWebSDK19VNAnalyticsProtocol_")
 ///
 /// \param email User email address
 ///
-- (void)trackCompletedPurchaseWithOrderId:(NSString * _Nonnull)orderId quantity:(NSInteger)quantity discount:(double)discount tips:(double)tips tax:(double)tax total:(double)total paymentTypes:(NSString * _Nullable)paymentTypes name:(NSString * _Nullable)name email:(NSString * _Nullable)email;
+- (void)trackCompletedPurchaseWithOrderId:(NSString * _Nonnull)orderId quantity:(NSInteger)quantity discount:(NSInteger)discount tips:(NSInteger)tips tax:(NSInteger)tax total:(NSInteger)total paymentTypes:(NSString * _Nullable)paymentTypes name:(NSString * _Nullable)name email:(NSString * _Nullable)email;
 /// Tracks the progress of an order after checking out.
 /// \param orderId UUID of order
 ///
@@ -953,7 +953,7 @@ typedef SWIFT_ENUM(NSInteger, PaymentMethodInstrument, open) {
 SWIFT_PROTOCOL("_TtP8VNWebSDK18PaymentProcessable_")
 @protocol PaymentProcessable
 - (void)processPaymentFrom:(UIViewController * _Nullable)viewController transactionData:(NSDictionary<NSString *, id> * _Nonnull)transactionData completion:(void (^ _Nonnull)(id <PaymentRepresentable> _Nullable, NSError * _Nullable))completion;
-- (void)completedPaymentWithOrderId:(NSString * _Nonnull)orderId quantity:(NSInteger)quantity discount:(double)discount tips:(double)tips tax:(double)tax total:(double)total paymentTypes:(NSString * _Nullable)paymentTypes;
+- (void)completedPaymentWithOrderId:(NSString * _Nonnull)orderId quantity:(NSInteger)quantity discount:(NSInteger)discount tips:(NSInteger)tips tax:(NSInteger)tax total:(NSInteger)total paymentTypes:(NSString * _Nullable)paymentTypes;
 @end
 
 
@@ -1109,7 +1109,7 @@ SWIFT_PROTOCOL("_TtP8VNWebSDK19VNAnalyticsProtocol_")
 ///
 /// \param email User email address
 ///
-- (void)trackCompletedPurchaseWithOrderId:(NSString * _Nonnull)orderId quantity:(NSInteger)quantity discount:(double)discount tips:(double)tips tax:(double)tax total:(double)total paymentTypes:(NSString * _Nullable)paymentTypes name:(NSString * _Nullable)name email:(NSString * _Nullable)email;
+- (void)trackCompletedPurchaseWithOrderId:(NSString * _Nonnull)orderId quantity:(NSInteger)quantity discount:(NSInteger)discount tips:(NSInteger)tips tax:(NSInteger)tax total:(NSInteger)total paymentTypes:(NSString * _Nullable)paymentTypes name:(NSString * _Nullable)name email:(NSString * _Nullable)email;
 /// Tracks the progress of an order after checking out.
 /// \param orderId UUID of order
 ///

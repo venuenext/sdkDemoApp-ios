@@ -111,7 +111,7 @@ class VNDemoAnalyticsHandler: VNAnalyticsProtocol {
 		onMessage(message)
 	}
 	
-	func trackCompletedPurchase(orderId: String, quantity: Int, discount: Double, tips: Double, tax: Double, total: Double, paymentTypes: String?, name: String?, email: String?) {
+	func trackCompletedPurchase(orderId: String, quantity: Int, discount: Int, tips: Int, tax: Int, total: Int, paymentTypes: String?, name: String?, email: String?) {
 		let message = createMessage(
 			"trackCompletedPurchase",
 			with: [

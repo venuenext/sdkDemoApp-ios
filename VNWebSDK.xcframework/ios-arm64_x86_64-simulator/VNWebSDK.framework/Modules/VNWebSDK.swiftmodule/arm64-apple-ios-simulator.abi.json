@@ -385,27 +385,27 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
@@ -424,7 +424,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@VNWebSDK@objc(pl)PaymentProcessable(im)completedPaymentWithOrderId:quantity:discount:tips:tax:total:paymentTypes:",
-            "mangledName": "$s8VNWebSDK18PaymentProcessableP09completedC07orderId8quantity8discount4tips3tax5total12paymentTypesySS_SiS4dSSSgtF",
+            "mangledName": "$s8VNWebSDK18PaymentProcessableP09completedC07orderId8quantity8discount4tips3tax5total12paymentTypesySS_S5iSSSgtF",
             "moduleName": "VNWebSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : VNWebSDK.PaymentProcessable>",
             "sugared_genericSig": "<Self where Self : VNWebSDK.PaymentProcessable>",
@@ -6650,6 +6650,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VNWebSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftJWT",
         "printedName": "SwiftJWT",
         "declKind": "Import",
@@ -8270,27 +8280,27 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
@@ -8337,7 +8347,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@VNWebSDK@objc(pl)VNAnalyticsProtocol(im)trackCompletedPurchaseWithOrderId:quantity:discount:tips:tax:total:paymentTypes:name:email:",
-            "mangledName": "$s8VNWebSDK19VNAnalyticsProtocolP22trackCompletedPurchase7orderId8quantity8discount4tips3tax5total12paymentTypes4name5emailySS_SiS4dSSSgA2NtF",
+            "mangledName": "$s8VNWebSDK19VNAnalyticsProtocolP22trackCompletedPurchase7orderId8quantity8discount4tips3tax5total12paymentTypes4name5emailySS_S5iSSSgA2NtF",
             "moduleName": "VNWebSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : VNWebSDK.VNAnalyticsProtocol>",
             "sugared_genericSig": "<Self where Self : VNWebSDK.VNAnalyticsProtocol>",
@@ -11795,6 +11805,16 @@
           "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VNWebSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -18962,14 +18982,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Classes\/VNPaymentProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1087,
+      "offset": 1075,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Classes\/VNPaymentProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1087,
+      "offset": 1075,
       "length": 8,
       "value": "1"
     },
