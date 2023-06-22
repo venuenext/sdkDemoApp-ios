@@ -12,6 +12,10 @@ import VNWebSDK
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
+	
+	lazy var rootViewController: UIViewController? = {
+		return (UIApplication.shared.delegate as? AppDelegate)?.window?.rootViewController
+	}()
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		/*
@@ -55,6 +59,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		 */
 		VenueNextWeb.shared.configureTheme(VNDemoCustomTheme())
 		return true
+	}
+	
+	public func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+		guard let presenter = rootViewController else {
+			return false
+		}
+
+		let canHandle = VenueNextWeb.canHandle(url: url)
+
+		if canHandle {
+			VenueNextWeb.handle(url: url, presenter: presenter, completion: nil)
+		}
+
+		return canHandle
 	}
 }
 
