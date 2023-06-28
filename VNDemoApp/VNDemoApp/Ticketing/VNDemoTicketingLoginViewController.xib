@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VNDemoTicketingLoginViewController" customModule="VNDemoApp" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextField" destination="UK3-nM-2np" id="BZz-aR-xxE"/>
+                <outlet property="firstNameTextField" destination="DBc-UC-3fp" id="hds-QU-7nu"/>
+                <outlet property="idTextField" destination="yGa-9F-BTL" id="a0h-a8-TcB"/>
+                <outlet property="lastNameTextField" destination="gOD-p1-cuv" id="DOh-zK-bIQ"/>
+                <outlet property="loginButton" destination="VrF-YN-9gy" id="f0N-hX-c7n"/>
+                <outlet property="phoneTextField" destination="REf-ro-CQg" id="hVs-7p-Dst"/>
+                <outlet property="providerTextField" destination="i9H-Qv-dSY" id="onn-Vx-tL5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFg-9o-OLL">
+                    <rect key="frame" x="39.333333333333343" y="123.00000000000001" width="314.33333333333326" height="33.666666666666671"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yGa-9F-BTL">
+                    <rect key="frame" x="39.333333333333343" y="188.66666666666666" width="314.33333333333326" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DBc-UC-3fp">
+                    <rect key="frame" x="39.333333333333343" y="238.66666666666666" width="314.33333333333326" height="33.999999999999972"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gOD-p1-cuv">
+                    <rect key="frame" x="39.333333333333343" y="288.66666666666669" width="314.33333333333326" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UK3-nM-2np">
+                    <rect key="frame" x="39.333333333333343" y="338.66666666666669" width="314.33333333333326" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="REf-ro-CQg">
+                    <rect key="frame" x="39.333333333333343" y="388.66666666666669" width="314.33333333333326" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Provider" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i9H-Qv-dSY">
+                    <rect key="frame" x="39.333333333333343" y="438.66666666666669" width="314.33333333333326" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VrF-YN-9gy">
+                    <rect key="frame" x="39.333333333333343" y="504.66666666666674" width="314.33333333333326" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="VrF-YN-9gy" firstAttribute="width" secondItem="i9H-Qv-dSY" secondAttribute="width" id="5Hd-5c-Hia"/>
+                <constraint firstItem="VrF-YN-9gy" firstAttribute="top" secondItem="i9H-Qv-dSY" secondAttribute="bottom" constant="32" id="6jT-FZ-JfM"/>
+                <constraint firstItem="UFg-9o-OLL" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="9An-Ru-jJ6"/>
+                <constraint firstItem="UK3-nM-2np" firstAttribute="top" secondItem="gOD-p1-cuv" secondAttribute="bottom" constant="16" id="AFo-Ca-W2s"/>
+                <constraint firstItem="REf-ro-CQg" firstAttribute="top" secondItem="UK3-nM-2np" secondAttribute="bottom" constant="16" id="Ab2-VN-aPU"/>
+                <constraint firstItem="UFg-9o-OLL" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="BbV-0W-YJi"/>
+                <constraint firstItem="gOD-p1-cuv" firstAttribute="top" secondItem="DBc-UC-3fp" secondAttribute="bottom" constant="16" id="Ceb-A8-1EI"/>
+                <constraint firstItem="i9H-Qv-dSY" firstAttribute="centerX" secondItem="REf-ro-CQg" secondAttribute="centerX" id="Hps-d0-uiD"/>
+                <constraint firstItem="gOD-p1-cuv" firstAttribute="width" secondItem="DBc-UC-3fp" secondAttribute="width" id="IkC-qA-3Sz"/>
+                <constraint firstItem="i9H-Qv-dSY" firstAttribute="width" secondItem="REf-ro-CQg" secondAttribute="width" id="Iog-8d-qoe"/>
+                <constraint firstItem="UK3-nM-2np" firstAttribute="width" secondItem="gOD-p1-cuv" secondAttribute="width" id="N7T-Th-fw9"/>
+                <constraint firstItem="UK3-nM-2np" firstAttribute="centerX" secondItem="gOD-p1-cuv" secondAttribute="centerX" id="QFc-mh-dzY"/>
+                <constraint firstItem="DBc-UC-3fp" firstAttribute="width" secondItem="yGa-9F-BTL" secondAttribute="width" id="QaI-IW-B0n"/>
+                <constraint firstItem="gOD-p1-cuv" firstAttribute="centerX" secondItem="DBc-UC-3fp" secondAttribute="centerX" id="Srt-kW-lYN"/>
+                <constraint firstItem="yGa-9F-BTL" firstAttribute="width" secondItem="UFg-9o-OLL" secondAttribute="width" id="Ti6-zo-aYc"/>
+                <constraint firstItem="UFg-9o-OLL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="64" id="XNB-qF-lOD"/>
+                <constraint firstItem="REf-ro-CQg" firstAttribute="centerX" secondItem="UK3-nM-2np" secondAttribute="centerX" id="Z7v-Ep-tZV"/>
+                <constraint firstItem="yGa-9F-BTL" firstAttribute="centerX" secondItem="UFg-9o-OLL" secondAttribute="centerX" id="Zhl-3P-sWp"/>
+                <constraint firstItem="yGa-9F-BTL" firstAttribute="top" secondItem="UFg-9o-OLL" secondAttribute="bottom" constant="32" id="eqz-lM-qU8"/>
+                <constraint firstItem="i9H-Qv-dSY" firstAttribute="top" secondItem="REf-ro-CQg" secondAttribute="bottom" constant="16" id="kyd-3g-AXh"/>
+                <constraint firstItem="DBc-UC-3fp" firstAttribute="centerX" secondItem="yGa-9F-BTL" secondAttribute="centerX" id="nV9-kl-UAL"/>
+                <constraint firstItem="REf-ro-CQg" firstAttribute="width" secondItem="UK3-nM-2np" secondAttribute="width" id="peK-1A-hi9"/>
+                <constraint firstItem="DBc-UC-3fp" firstAttribute="top" secondItem="yGa-9F-BTL" secondAttribute="bottom" constant="16" id="qVM-he-Bqk"/>
+                <constraint firstItem="VrF-YN-9gy" firstAttribute="centerX" secondItem="i9H-Qv-dSY" secondAttribute="centerX" id="yQv-Fu-5yO"/>
+            </constraints>
+            <point key="canvasLocation" x="19" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

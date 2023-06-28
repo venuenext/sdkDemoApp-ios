@@ -19,17 +19,10 @@ fileprivate let KEY_DEMO_LOGGED_IN_USER = "demoLoggedInUserKey"
 class VNDemoTicketingAPI {
 	let defaults = UserDefaults.standard
 	
-	func login(completion: (VNDemoTicketingUser) -> Void) {
-		let demoTicketingUser = VNDemoTicketingUser(
-			userID: "aaaa-5555-vndemo",
-			firstName: "John",
-			lastName: "Doe",
-			email: "john.doe@test.com",
-			phoneNumber: "(555)555-5555"
-		)
-		if let encoded = try? JSONEncoder().encode(demoTicketingUser) {
+	func login(with userInfo: VNDemoTicketingUser, completion: (VNDemoTicketingUser) -> Void) {
+		if let encoded = try? JSONEncoder().encode(userInfo) {
 			defaults.setValue(encoded, forKey: KEY_DEMO_LOGGED_IN_USER)
-			completion(demoTicketingUser)
+			completion(userInfo)
 		}
 	}
 	

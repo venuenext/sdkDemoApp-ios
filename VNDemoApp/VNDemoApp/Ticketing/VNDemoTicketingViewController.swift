@@ -27,6 +27,37 @@ class VNDemoTicketingViewController: UIViewController, UITableViewDelegate, UITa
 		demoTicketingMethodsTableView.delegate = self
 		demoTicketingMethodsTableView.dataSource = self
 	}
+	
+	private func showLoginView(with user: VNDemoTicketingUser?) {
+		let loginViewController = VNDemoTicketingLoginViewController()
+		loginViewController.configure(user: user, onLogin: onLogin(user:))
+		present(loginViewController, animated: true)
+	}
+	
+	private func onLogin(user: VNDemoTicketingUser) {
+		demoTicketingAPI.login(with: user) { loggedInUser in
+			let vnUser = User(
+				loggedInUser.userID,
+				email: loggedInUser.email,
+				firstName: loggedInUser.firstName,
+				lastName: loggedInUser.lastName,
+				phoneNumber: loggedInUser.phoneNumber,
+				provider: nil
+			)
+			VenueNextWeb.shared.setUser(vnUser)
+			let loginMessage = UIAlertController(
+				title: "Success",
+				message: "\(loggedInUser.firstName) logged in successfully.",
+				preferredStyle: .alert
+			)
+			DispatchQueue.main.async {
+				self.present(loginMessage, animated: true, completion: nil)
+			}
+			DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+				loginMessage.dismiss(animated: true, completion: nil)
+			}
+		}
+	}
     
 	func tableView(
 		_ tableView: UITableView,
@@ -54,39 +85,7 @@ class VNDemoTicketingViewController: UIViewController, UITableViewDelegate, UITa
 		switch(method) {
 		case LOGIN:
 			demoTicketingAPI.getDemoUser { demoUser in
-				if let demoUser = demoUser {
-					let loggedInMessage = UIAlertController(
-						title: "Already Logged In",
-						message: "\(demoUser.firstName) is already logged in.",
-						preferredStyle: .alert
-					)
-					self.present(loggedInMessage, animated: true, completion: nil)
-					DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-						loggedInMessage.dismiss(animated: true, completion: nil)
-					}
-				}
-				else {
-					demoTicketingAPI.login { loggedInUser in
-						let vnUser = User(
-							loggedInUser.userID,
-							email: loggedInUser.email,
-							firstName: loggedInUser.firstName,
-							lastName: loggedInUser.lastName,
-							phoneNumber: loggedInUser.phoneNumber,
-							provider: nil
-						)
-						VenueNextWeb.shared.setUser(vnUser)
-						let loginMessage = UIAlertController(
-							title: "Success",
-							message: "\(loggedInUser.firstName) logged in successfully.",
-							preferredStyle: .alert
-						)
-						self.present(loginMessage, animated: true, completion: nil)
-						DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-							loginMessage.dismiss(animated: true, completion: nil)
-						}
-					}
-				}
+				showLoginView(with: demoUser)
 			}
 		case LOGOUT:
 			demoTicketingAPI.logout {
