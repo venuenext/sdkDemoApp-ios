@@ -42,7 +42,7 @@ class VNDemoTicketingViewController: UIViewController, UITableViewDelegate, UITa
 				firstName: loggedInUser.firstName,
 				lastName: loggedInUser.lastName,
 				phoneNumber: loggedInUser.phoneNumber,
-				provider: nil
+				provider: loggedInUser.provider
 			)
 			VenueNextWeb.shared.setUser(vnUser)
 			let loginMessage = UIAlertController(

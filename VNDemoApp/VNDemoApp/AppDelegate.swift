@@ -47,7 +47,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 					firstName: demoUser.firstName,
 					lastName: demoUser.lastName,
 					phoneNumber: demoUser.phoneNumber,
-					provider: nil
+					provider: demoUser.provider
 				)
 				VenueNextWeb.shared.setUser(vnUser)
 			}
