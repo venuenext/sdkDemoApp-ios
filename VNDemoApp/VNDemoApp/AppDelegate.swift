@@ -7,6 +7,7 @@
 
 import UIKit
 import VNWebSDK
+import OSLog
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,6 +24,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		 The `org`, `instance`, and env must be correct. You should receive these values from the VenueNext team. `env` is optional. Omit `env` to point to your production environment, or include it to point to other environments, like "qa" or "dev" (the environment must be created by VN, however).
 		 */
 		VenueNextWeb.shared.initialize("<YOUR_VN_ORG>", instance: "<YOU_VN_INSTANCE>")
+		
+//		// Do this for BT Apple Pay
+//		let braintree = VNBraintree(merchantId: "Test")
+//		// Do this for BT no Apple Pay
+//		let braintree = VNBraintree()
+//
+//		// Do this if using BT
+//		VenueNextWeb.shared.configureBrainTree(braintree) { error in
+//			if let error = error {
+//				os_log("Error configuring Braintree: \(error)")
+//			}
+//		}
 		
 		/*
 		 TODO: A .pem file is needed for authenticating user.
