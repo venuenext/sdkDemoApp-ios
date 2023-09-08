@@ -57,8 +57,8 @@ class VNDemoTicketingLoginViewController: UIViewController {
 			firstName: firstNameTextField.text ?? "",
 			lastName: lastNameTextField.text ?? "",
 			email: emailTextField.text ?? "",
-			phoneNumber: phoneTextField.text ?? "",
-			provider: providerTextField.text ?? ""
+            phoneNumber: !(phoneTextField.text ?? "").isEmpty ? phoneTextField.text : nil,
+			provider: !(providerTextField.text ?? "").isEmpty ? providerTextField.text : nil
 		)
 		onLogin?(demoUser)
 		dismiss(animated: true)

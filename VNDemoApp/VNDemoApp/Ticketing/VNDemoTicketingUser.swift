@@ -15,16 +15,16 @@ class VNDemoTicketingUser: Codable {
 	let firstName: String
 	let lastName: String
 	let email: String
-	let phoneNumber: String
-	let provider: String
+	let phoneNumber: String?
+	let provider: String?
 	
 	init(
 		userID: String,
 		firstName: String,
 		lastName: String,
 		email: String,
-		phoneNumber: String,
-		provider: String
+		phoneNumber: String? = nil,
+		provider: String? = nil
 	) {
 		self.userID = userID
 		self.firstName = firstName

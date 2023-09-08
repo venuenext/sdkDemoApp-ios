@@ -20,6 +20,7 @@ fileprivate let SCANNER = "Scanner"
 fileprivate let QR_CODE = "QR Code"
 fileprivate let ORDER_HISTORY = "Order History"
 fileprivate let RECEIPT = "Order Receipt"
+fileprivate let LOAD_TICKET = "Load Ticket"
 
 class VNDemoWalletViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 	@IBOutlet weak var demoWalletMethodsTableview: UITableView!

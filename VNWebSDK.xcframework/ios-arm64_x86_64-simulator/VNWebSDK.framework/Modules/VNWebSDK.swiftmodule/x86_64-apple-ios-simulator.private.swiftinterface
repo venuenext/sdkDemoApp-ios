@@ -176,6 +176,7 @@ public struct DeepLinkConfig : Swift.Codable {
   }
   public init()
   public init(route: Swift.String?)
+  public init(route: VNWebSDK.WalletRoutes)
   public init(productType: VNWebSDK.ProductType)
   public init(productType: VNWebSDK.ProductType, serviceType: VNWebSDK.ServiceType)
   public init(menu: Swift.String?)
@@ -239,6 +240,8 @@ extension UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) public func presentMyInfo(completion: (() -> Swift.Void)?)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func pushPayments()
   @_Concurrency.MainActor(unsafe) public func presentPayments(completion: (() -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func pushLoadTicket()
+  @_Concurrency.MainActor(unsafe) public func presentLoadTicket(completion: (() -> Swift.Void)?)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func pushBadge()
   @_Concurrency.MainActor(unsafe) public func presentBadge(completion: (() -> Swift.Void)?)
 }
@@ -434,6 +437,7 @@ extension VNWebSDK.DeepLinkRoute {
     case qrCode
     case showPayments
     case showBadge
+    case showLoadTicket
     case wallet
     case myInfo
     public init?(rawValue: Swift.String)

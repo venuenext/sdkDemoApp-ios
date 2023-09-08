@@ -353,6 +353,7 @@ typedef SWIFT_ENUM(NSInteger, ServiceType, open) {
 - (void)pushBenefitsAndRewards;
 - (void)pushMyInfo;
 - (void)pushPayments;
+- (void)pushLoadTicket;
 - (void)pushBadge;
 @end
 
@@ -1016,6 +1017,7 @@ typedef SWIFT_ENUM(NSInteger, ServiceType, open) {
 - (void)pushBenefitsAndRewards;
 - (void)pushMyInfo;
 - (void)pushPayments;
+- (void)pushLoadTicket;
 - (void)pushBadge;
 @end
 

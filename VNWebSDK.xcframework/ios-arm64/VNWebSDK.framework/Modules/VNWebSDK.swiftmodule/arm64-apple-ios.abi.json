@@ -5219,6 +5219,33 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(route:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeepLinkConfig",
+                "printedName": "VNWebSDK.DeepLinkConfig",
+                "usr": "s:8VNWebSDK14DeepLinkConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WalletRoutes",
+                "printedName": "VNWebSDK.DeepLinkRoute.WalletRoutes",
+                "usr": "s:8VNWebSDK13DeepLinkRouteC12WalletRoutesO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8VNWebSDK14DeepLinkConfigV5routeAcA0cD5RouteC12WalletRoutesO_tcfc",
+            "mangledName": "$s8VNWebSDK14DeepLinkConfigV5routeAcA0cD5RouteC12WalletRoutesO_tcfc",
+            "moduleName": "VNWebSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(productType:)",
             "children": [
               {
@@ -10937,6 +10964,43 @@
                 "declKind": "EnumElement",
                 "usr": "s:8VNWebSDK13DeepLinkRouteC12WalletRoutesO9showBadgeyA2EmF",
                 "mangledName": "$s8VNWebSDK13DeepLinkRouteC12WalletRoutesO9showBadgeyA2EmF",
+                "moduleName": "VNWebSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "showLoadTicket",
+                "printedName": "showLoadTicket",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VNWebSDK.DeepLinkRoute.WalletRoutes.Type) -> VNWebSDK.DeepLinkRoute.WalletRoutes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletRoutes",
+                        "printedName": "VNWebSDK.DeepLinkRoute.WalletRoutes",
+                        "usr": "s:8VNWebSDK13DeepLinkRouteC12WalletRoutesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VNWebSDK.DeepLinkRoute.WalletRoutes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WalletRoutes",
+                            "printedName": "VNWebSDK.DeepLinkRoute.WalletRoutes",
+                            "usr": "s:8VNWebSDK13DeepLinkRouteC12WalletRoutesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8VNWebSDK13DeepLinkRouteC12WalletRoutesO14showLoadTicketyA2EmF",
+                "mangledName": "$s8VNWebSDK13DeepLinkRouteC12WalletRoutesO14showLoadTicketyA2EmF",
                 "moduleName": "VNWebSDK"
               },
               {
@@ -17599,6 +17663,75 @@
           },
           {
             "kind": "Function",
+            "name": "pushLoadTicket",
+            "printedName": "pushLoadTicket()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VNWebSDK@@objc(cs)UINavigationController(im)pushLoadTicket",
+            "mangledName": "$sSo22UINavigationControllerC8VNWebSDKE14pushLoadTicketyyF",
+            "moduleName": "VNWebSDK",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentLoadTicket",
+            "printedName": "presentLoadTicket(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22UINavigationControllerC8VNWebSDKE17presentLoadTicket10completionyyycSg_tF",
+            "mangledName": "$sSo22UINavigationControllerC8VNWebSDKE17presentLoadTicket10completionyyycSg_tF",
+            "moduleName": "VNWebSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "pushBadge",
             "printedName": "pushBadge()",
             "children": [
@@ -19997,14 +20130,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 911,
+      "offset": 919,
+      "length": 37,
+      "value": "\"\/wallet?showExchangeServiceDialog=1\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 979,
       "length": 9,
       "value": "\"\/wallet\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 1011,
       "length": 19,
       "value": "\"\/profile\/settings\""
     },
@@ -20067,70 +20207,77 @@
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 911,
+      "offset": 919,
+      "length": 37,
+      "value": "\"\/wallet?showExchangeServiceDialog=1\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 979,
       "length": 9,
       "value": "\"\/wallet\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 1011,
       "length": 19,
       "value": "\"\/profile\/settings\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 1247,
+      "offset": 1315,
       "length": 11,
       "value": "\"\/rvc\/menu\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 1336,
+      "offset": 1404,
       "length": 6,
       "value": "\"\/rvc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 1247,
+      "offset": 1315,
       "length": 11,
       "value": "\"\/rvc\/menu\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 1336,
+      "offset": 1404,
       "length": 6,
       "value": "\"\/rvc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 1516,
+      "offset": 1584,
       "length": 17,
       "value": "\"\/order\/activity\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 1602,
+      "offset": 1670,
       "length": 16,
       "value": "\"\/order\/receipt\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 1516,
+      "offset": 1584,
       "length": 17,
       "value": "\"\/order\/activity\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/DeepLinkRoute.swift",
       "kind": "StringLiteral",
-      "offset": 1602,
+      "offset": 1670,
       "length": 16,
       "value": "\"\/order\/receipt\""
     },
