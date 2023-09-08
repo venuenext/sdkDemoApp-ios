@@ -37,7 +37,8 @@ class VNDemoWalletViewController: UIViewController, UITableViewDelegate, UITable
 		SCANNER,
 		QR_CODE,
 		ORDER_HISTORY,
-		RECEIPT
+		RECEIPT,
+        LOAD_TICKET
 	]
 	
     override func viewDidLoad() {
@@ -94,6 +95,8 @@ class VNDemoWalletViewController: UIViewController, UITableViewDelegate, UITable
 			 TODO: Update the order UUID to test with a real receipt for configuration.
 			 */
 			navigationController?.pushOrderReceipt(receipt: "<ORDER_UUID>")
+		case LOAD_TICKET:
+            navigationController?.pushLoadTicket()
 		default:
 			let unsupportedMessage = UIAlertController(
 				title: "Selection Unsupported",
