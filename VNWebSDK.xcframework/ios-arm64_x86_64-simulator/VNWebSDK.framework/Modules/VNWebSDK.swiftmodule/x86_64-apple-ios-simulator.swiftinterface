@@ -5,6 +5,7 @@
 import AVFoundation
 import CoreLocation
 import Foundation
+import OSLog
 import Swift
 import SwiftJWT
 import UIKit

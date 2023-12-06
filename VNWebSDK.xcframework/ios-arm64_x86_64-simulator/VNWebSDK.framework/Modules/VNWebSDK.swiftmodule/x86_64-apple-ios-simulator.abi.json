@@ -2337,6 +2337,13 @@
       },
       {
         "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "VNWebSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -19164,14 +19171,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/QRViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 773,
+      "offset": 786,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Controllers\/QRViewController.swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 337,
       "length": 16,
       "value": "\"VNWebSDK.QRViewController\""
     },
