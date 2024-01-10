@@ -3815,6 +3815,55 @@
           },
           {
             "kind": "Function",
+            "name": "checkAnalyticsEnabledStatus",
+            "printedName": "checkAnalyticsEnabledStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VNWebSDK12VenueNextWebC27checkAnalyticsEnabledStatusSbyF",
+            "mangledName": "$s8VNWebSDK12VenueNextWebC27checkAnalyticsEnabledStatusSbyF",
+            "moduleName": "VNWebSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAnalyticsEnabled",
+            "printedName": "setAnalyticsEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VNWebSDK12VenueNextWebC19setAnalyticsEnabledyySbF",
+            "mangledName": "$s8VNWebSDK12VenueNextWebC19setAnalyticsEnabledyySbF",
+            "moduleName": "VNWebSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "configureNavDelegate",
             "printedName": "configureNavDelegate(_:)",
             "children": [
@@ -11899,6 +11948,23 @@
       },
       {
         "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "VNWebSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VNWebSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -14133,6 +14199,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "VNWebSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VNWebSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -20413,6 +20489,13 @@
       "offset": 352,
       "length": 6,
       "value": "\"seat\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Analytics\/AnalyticsEnabledStatusProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
+      "length": 26,
+      "value": "\"vnAnalyticsEnabledStatus\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/VNWebSDK\/Enum\/ProductType.swift",

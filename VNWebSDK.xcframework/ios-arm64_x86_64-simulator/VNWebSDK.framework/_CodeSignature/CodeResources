@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JbeqHUUiWWgXu+GTHZZ1/MCxzKc=
+		7HTi5g8MbMTl0JxwLQboO3TfaGY=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZdGnMlxhD0r5v2yXdA0vIJfTGgU=
+		U8mB9r/GUR8k1cuco1h+2/iXsTc=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		046gA5mClNnDB1cHwE5HHv6ZwyY=
+		7UqyD7ouVhaxZFYNZromB94rGMA=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9oSllJd3fpnG2RD3W243JjfhIhg=
+		Vi9CGXs+IT+ukNm7SBCVU+NixtM=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		046gA5mClNnDB1cHwE5HHv6ZwyY=
+		7UqyD7ouVhaxZFYNZromB94rGMA=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sqVBJGswZklRSWLxUARzKNslxoE=
+		tCL+IYGjq3qClfRInLtr8tOUIRs=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZdGnMlxhD0r5v2yXdA0vIJfTGgU=
+		U8mB9r/GUR8k1cuco1h+2/iXsTc=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nVkY03UtYM25gIw4Vz9rhLGRd8I=
+		/VfMyx7Z3315/wIJOoVzHw3nI9M=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jgDj2TB8RFICcgst8Q/CvNMgqIE=
+		wLBMePwL35jYfFvofwHBYS1XabA=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nVkY03UtYM25gIw4Vz9rhLGRd8I=
+		/VfMyx7Z3315/wIJOoVzHw3nI9M=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		m1jUIjpZ2Ek0sIMl6XMotVV8hkQ=
+		x0Jf3sZI7M02c35mfEyXqUFSlFY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -136,70 +136,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LxUS26qkOezodHYwubadPJJnS2y6TlnqfEJq3nrU0CY=
+			4VLU41P2nQaWxfv+tOuoD4deHAQ7YuLocc5IjscAYsE=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vs0s1EN//CzUEnjGLOlgGjUcu5w1JLE+IeZHyp2NWyM=
+			gzpbLVG2wX02TrN9OTrJrmVCCvhX1bE2l9nc7r3eRvk=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CxzGyDq+ZS5h2WR/VyJoOhcCZ3R2CeEaYqqZExob/+A=
+			HOKE72rklpxxWBgix1qDOhKlnLHYmxW4x7k5duwa5sc=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vs0s1EN//CzUEnjGLOlgGjUcu5w1JLE+IeZHyp2NWyM=
+			gzpbLVG2wX02TrN9OTrJrmVCCvhX1bE2l9nc7r3eRvk=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rJdxEZ7YiGDE+XbsL4H1MV52dAJACxBSqx/mO73ZwjQ=
+			1idIj56P9sK0RDioSAtOaQNJ3by5ahLC+4GkqvRWGDc=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LxUS26qkOezodHYwubadPJJnS2y6TlnqfEJq3nrU0CY=
+			4VLU41P2nQaWxfv+tOuoD4deHAQ7YuLocc5IjscAYsE=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dreqoL5CHL52gnVdn0LmuRjBBwI1u1U5nT3ic1i6yRE=
+			zRU0ZAoLIMrbQSz/h7x0UXsxrs6+ZTzlWRQhx2eO6+E=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LiuG78LgufB0mLb2h6iYG3IzBUTKHh+zbkaLERVz6Mk=
+			1KWyPrJDvVakB7i20zcDsrytnSeQglLGP0Z4XD0tqag=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dreqoL5CHL52gnVdn0LmuRjBBwI1u1U5nT3ic1i6yRE=
+			zRU0ZAoLIMrbQSz/h7x0UXsxrs6+ZTzlWRQhx2eO6+E=
 			</data>
 		</dict>
 		<key>Modules/VNWebSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VDRsuGduGqHEszjPccndXujxuQEcoeMbOFYwTTQNdEI=
+			vyZUCAKNT3kW3CGlFtYIzbE1OsM2zcnFCWgjHCArxWg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

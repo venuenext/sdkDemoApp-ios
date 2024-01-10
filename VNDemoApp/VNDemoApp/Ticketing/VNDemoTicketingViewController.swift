@@ -10,6 +10,7 @@ import VNWebSDK
 
 fileprivate let LOGIN = "Login"
 fileprivate let LOGOUT = "Logout"
+fileprivate let TOGGLE_ANALYTICS_ENABLED = "Toggle Analytics Enabled"
 
 class VNDemoTicketingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 	@IBOutlet weak var demoTicketingMethodsTableView: UITableView!
@@ -19,7 +20,8 @@ class VNDemoTicketingViewController: UIViewController, UITableViewDelegate, UITa
 	
 	let demoMethods = [
 		LOGIN,
-		LOGOUT
+		LOGOUT,
+        TOGGLE_ANALYTICS_ENABLED
 	]
 
 	override func viewDidLoad() {
@@ -100,6 +102,18 @@ class VNDemoTicketingViewController: UIViewController, UITableViewDelegate, UITa
 					logoutMessage.dismiss(animated: true, completion: nil)
 				}
 			}
+        case TOGGLE_ANALYTICS_ENABLED:
+            let newAnalyticsEnabledStatus = !VenueNextWeb.shared.checkAnalyticsEnabledStatus()
+            let toggleMessage = UIAlertController(
+                title: "Status Changed",
+                message: "Setting analytics enabled status to: \(newAnalyticsEnabledStatus)",
+                preferredStyle: .alert
+            )
+            self.present(toggleMessage, animated: true, completion: nil)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                toggleMessage.dismiss(animated: true, completion: nil)
+            }
+            VenueNextWeb.shared.setAnalyticsEnabled(newAnalyticsEnabledStatus)
 		default:
 			let unsupportedMessage = UIAlertController(
 				title: "Selection Unsupported",

@@ -133,6 +133,8 @@ public typealias VN = VNWebSDK.VenueNextWeb
   @objc public func setUser(_ user: VNWebSDK.User)
   @objc public func logUserOut()
   public func configureAnalytics(_ adapter: VNWebSDK.VNAnalyticsProtocol)
+  public func checkAnalyticsEnabledStatus() -> Swift.Bool
+  public func setAnalyticsEnabled(_ enabled: Swift.Bool)
   public func configureNavDelegate(_ delegate: VNWebSDK.VNNavigationProtocol)
   public func configureTheme(_ theme: VNWebSDK.VNThemable)
   public func setSectionRowSeat(sectionRowSeat: VNWebSDK.SectionRowSeat?)
