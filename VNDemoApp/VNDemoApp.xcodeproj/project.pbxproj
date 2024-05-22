@@ -25,6 +25,7 @@
 		327FD02C294A523400BFF2BC /* VNDemoAnalyticsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FD02B294A523400BFF2BC /* VNDemoAnalyticsHandler.swift */; };
 		32B6A88F2A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B6A88D2A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.swift */; };
 		32B6A8902A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B6A88E2A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.xib */; };
+		B3298DE22BFE5EEA00C12C44 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B3298DE12BFE5EEA00C12C44 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		327FD02B294A523400BFF2BC /* VNDemoAnalyticsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VNDemoAnalyticsHandler.swift; sourceTree = "<group>"; };
 		32B6A88D2A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VNDemoTicketingLoginViewController.swift; sourceTree = "<group>"; };
 		32B6A88E2A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VNDemoTicketingLoginViewController.xib; sourceTree = "<group>"; };
+		B3298DE12BFE5EEA00C12C44 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				322D5E782911765900FB3F5F /* Assets.xcassets */,
 				322D5E7A2911765900FB3F5F /* LaunchScreen.storyboard */,
 				322D5E7D2911765900FB3F5F /* Info.plist */,
+				B3298DE12BFE5EEA00C12C44 /* PrivacyInfo.xcprivacy */,
 			);
 			path = VNDemoApp;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				322D5E7C2911765900FB3F5F /* LaunchScreen.storyboard in Resources */,
 				322D5E792911765900FB3F5F /* Assets.xcassets in Resources */,
 				32B6A8902A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.xib in Resources */,
+				B3298DE22BFE5EEA00C12C44 /* PrivacyInfo.xcprivacy in Resources */,
 				322D5E772911763C00FB3F5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

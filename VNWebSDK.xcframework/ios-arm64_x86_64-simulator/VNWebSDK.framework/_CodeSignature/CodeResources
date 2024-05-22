@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7HTi5g8MbMTl0JxwLQboO3TfaGY=
+		21X4T6NAubojhmST3Q9wkGj+nZo=
 		</data>
 		<key>Modules/VNWebSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -103,6 +103,10 @@
 		<key>OpenSans-SemiBoldItalic.ttf</key>
 		<data>
 		tZ6Ryxm8Zg/7470SUBtHgRlqgxI=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		blUQgT7KGA9YlXCXPFvQo5k6418=
 		</data>
 		<key>QRViewController.nib</key>
 		<data>
@@ -277,6 +281,13 @@
 			<key>hash2</key>
 			<data>
 			x0BBOhxZKG5CpJRnhEqZCBm6N/eO9ofSFYHpQXCAVdU=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AiYARnIAGn5r2sB+dtMQDaN/4XHqnkJumxwoGQaUzgY=
 			</data>
 		</dict>
 		<key>QRViewController.nib</key>
