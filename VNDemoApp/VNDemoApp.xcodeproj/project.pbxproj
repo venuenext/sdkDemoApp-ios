@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		321DF2CE2912F0DB002539AE /* VNWebSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321DF2CD2912F0DB002539AE /* VNWebSDK.xcframework */; };
-		321DF2CF2912F0DB002539AE /* VNWebSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 321DF2CD2912F0DB002539AE /* VNWebSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		322D5E702911763C00FB3F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D5E6F2911763C00FB3F5F /* AppDelegate.swift */; };
 		322D5E772911763C00FB3F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322D5E752911763C00FB3F5F /* Main.storyboard */; };
 		322D5E792911765900FB3F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322D5E782911765900FB3F5F /* Assets.xcassets */; };
@@ -25,22 +23,9 @@
 		327FD02C294A523400BFF2BC /* VNDemoAnalyticsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FD02B294A523400BFF2BC /* VNDemoAnalyticsHandler.swift */; };
 		32B6A88F2A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B6A88D2A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.swift */; };
 		32B6A8902A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B6A88E2A4C9F15004CAC48 /* VNDemoTicketingLoginViewController.xib */; };
+		94093BAF2EA2C95B00636680 /* VNWebSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 94093BAE2EA2C95B00636680 /* VNWebSDK */; };
 		B3298DE22BFE5EEA00C12C44 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B3298DE12BFE5EEA00C12C44 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		322D5E872911B62B00FB3F5F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				321DF2CF2912F0DB002539AE /* VNWebSDK.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		321DF2CD2912F0DB002539AE /* VNWebSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VNWebSDK.xcframework; path = ../VNWebSDK.xcframework; sourceTree = "<group>"; };
@@ -69,7 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				322D5E922911C14E00FB3F5F /* SwiftJWT in Frameworks */,
-				321DF2CE2912F0DB002539AE /* VNWebSDK.xcframework in Frameworks */,
+				94093BAF2EA2C95B00636680 /* VNWebSDK in Frameworks */,
 				32781A6E2A7423BD00577709 /* BraintreeDropIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,7 +144,6 @@
 				322D5E682911763C00FB3F5F /* Sources */,
 				322D5E692911763C00FB3F5F /* Frameworks */,
 				322D5E6A2911763C00FB3F5F /* Resources */,
-				322D5E872911B62B00FB3F5F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +153,7 @@
 			packageProductDependencies = (
 				322D5E912911C14E00FB3F5F /* SwiftJWT */,
 				32781A6D2A7423BD00577709 /* BraintreeDropIn */,
+				94093BAE2EA2C95B00636680 /* VNWebSDK */,
 			);
 			productName = VNDemoApp;
 			productReference = 322D5E6C2911763C00FB3F5F /* VNDemoApp.app */;
@@ -201,6 +186,7 @@
 			packageReferences = (
 				322D5E902911C14E00FB3F5F /* XCRemoteSwiftPackageReference "Swift-JWT" */,
 				32781A6C2A7423BD00577709 /* XCRemoteSwiftPackageReference "braintree-ios-drop-in" */,
+				94093BAD2EA2C95B00636680 /* XCRemoteSwiftPackageReference "websdk-ios-spm" */,
 			);
 			productRefGroup = 322D5E6D2911763C00FB3F5F /* Products */;
 			projectDirPath = "";
@@ -476,6 +462,14 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		94093BAD2EA2C95B00636680 /* XCRemoteSwiftPackageReference "websdk-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/venuenext/websdk-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -488,6 +482,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 32781A6C2A7423BD00577709 /* XCRemoteSwiftPackageReference "braintree-ios-drop-in" */;
 			productName = BraintreeDropIn;
+		};
+		94093BAE2EA2C95B00636680 /* VNWebSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94093BAD2EA2C95B00636680 /* XCRemoteSwiftPackageReference "websdk-ios-spm" */;
+			productName = VNWebSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
