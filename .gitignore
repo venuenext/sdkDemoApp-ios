@@ -1,2 +1,4 @@
 /VNDemoApp/VNDemoApp.xcodeproj/project.xcworkspace/xcuserdata/tj.xcuserdatad/UserInterfaceState.xcuserstate
 /VNDemoApp/VNDemoApp.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+*.xcuserstate
+.DS_Store
