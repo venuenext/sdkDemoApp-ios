@@ -67,7 +67,7 @@ class VNDemoAnalyticsHandler: VNAnalyticsProtocol {
 				"itemName": itemName,
 				"itemCategory": itemCategory,
 				"variant": variant,
-				"price": price.value
+				"price": String(price)
 			]
 		)
 		onMessage(message)
@@ -89,8 +89,8 @@ class VNDemoAnalyticsHandler: VNAnalyticsProtocol {
 				"itemName": itemName,
 				"itemCategory": itemCategory,
 				"variant": variant,
-				"price": price.value,
-				"quantity": quantity.value
+				"price": String(price),
+				"quantity": String(quantity)
 			]
 		)
 		onMessage(message)
@@ -104,8 +104,8 @@ class VNDemoAnalyticsHandler: VNAnalyticsProtocol {
 				"itemName": itemName,
 				"itemCategory": itemCategory,
 				"variant": variant,
-				"price": price.value,
-				"quantity": quantity.value
+				"price": String(price),
+				"quantity": String(quantity)
 			]
 		)
 		onMessage(message)
@@ -116,11 +116,11 @@ class VNDemoAnalyticsHandler: VNAnalyticsProtocol {
 			"trackCompletedPurchase",
 			with: [
 				"orderId": orderId,
-				"quantity": quantity.value,
-				"discount": discount.value,
-				"tips": tips.value,
-				"tax": tax.value,
-				"total": total.value,
+				"quantity": String(quantity),
+				"discount": String(discount),
+				"tips": String(tips),
+				"tax": String(tax),
+				"total": String(total),
 				"paymentTypes": paymentTypes ?? "N/A",
 				"name": name ?? "N/A",
 				"email": email ?? "N/A"
